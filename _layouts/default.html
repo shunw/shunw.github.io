@@ -13,21 +13,21 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+    
         {% include nav.html %}
-    </div>
+    
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    
         {{ content }}
-      </section>
+    
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      {% include footer.html %}
-    </div>
+    
+    {% include footer.html %}
+    
 
     {% if site.google_analytics %}
       <script>
