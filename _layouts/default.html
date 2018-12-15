@@ -12,13 +12,14 @@
 
   <body>
 
+    <div id="body-container">
     <!-- HEADER -->
     
         {% include nav.html %}
     
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
+    <div id="main_content_wrap" class="outer" style="padding-top:4.5rem; margin-left:2rem; padding-bottom: 3.5rem; margin-bottom: 0rem;min-height:49rem;">
     
         {{ content }}
     
@@ -28,6 +29,7 @@
     
     {% include footer.html %}
     
+  </div>
 
     {% if site.google_analytics %}
       <script>

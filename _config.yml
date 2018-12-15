@@ -1,1 +1,9 @@
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slates
+
+# Outputting
+# https://jekyllrb.com/docs/permalinks/
+#permalink: /:categories/:year/:month/:day/:title.html
+# https://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page/:num/' # start with page 1
+# timezone: Europe/Berlin
