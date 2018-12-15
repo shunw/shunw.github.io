@@ -7,3 +7,16 @@
 paginate: 5
 paginate_path: '/blog/page/:num/' # start with page 1
 # timezone: Europe/Berlin
+
+collections: 
+  faq: 
+    output: true
+
+defaults: 
+  - scope: 
+      path: ""
+      type: "faq"
+    
+    values: 
+      layout: "faq"
+      

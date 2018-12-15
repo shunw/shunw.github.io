@@ -3,19 +3,19 @@
 
 body {
     margin: 0;
-    background-image: url('../img/sergei-gavrilov-528341-unsplash.jpg');
+    /* background-image: url('../img/sergei-gavrilov-528341-unsplash.jpg'); */
     /* background-image: url('../image/bruno-horwath-692469-unsplash.jpg'); */
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-color: rgba(255, 255, 255, .25);
-    background-blend-mode: lighten;
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-color: rgba(255, 255, 255, .25); */
+    /* background-blend-mode: lighten; */
 }
 
 #body-container {
     margin: 0;
     background-image: url('../img/sergei-gavrilov-528341-unsplash.jpg');
     /* background-image: url('../image/bruno-horwath-692469-unsplash.jpg'); */
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-size: contain;
     background-color: rgba(255, 255, 255, .25);
     background-blend-mode: lighten;
