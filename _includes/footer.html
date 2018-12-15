@@ -1,10 +1,18 @@
 <footer class="nav-click">
     <section>background photo by Sergei Gavrilov on Unsplash</section>
     <ul>
-        <li><a href="#">课程介绍</a></li>
+        <li><a href="/lesson_index">课程介绍</a></li>
         <li><a href="/blog/">教室日志</a></li>
-        <li><a href="#">联系我们</a></li>
-        <li><a href="#">FAQ</a></li>
+        <li><a href="/contact">联系我们</a></li>
+        <li><a href="/faq">FAQ</a></li>
         <!-- <li><a href="#">鸣谢</a></li> -->
     </ul>
+
 </footer>
+
+<script>
+    const navLi = document.querySelectorAll('.nav-click ul li');
+    navLi.forEach(li => {
+        li.addEventListener('click', evt => li.querySelector('a').click());
+    });
+</script>

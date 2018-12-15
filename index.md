@@ -2,6 +2,6 @@
 title: Hello from sw...
 ---
 
-# 使用Github Pages
+# S Ballet Studio
 
-官方有详细的文档可参考：[Github Pages基础](https://help.github.com/categories/github-pages-basics/)
+欢迎来到S Ballet Studio主页

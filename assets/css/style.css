@@ -20,24 +20,93 @@ body {
     background-color: rgba(255, 255, 255, .25);
     background-blend-mode: lighten;
 
-    
+
 }
 
-.post_background p img{
+#body-container article {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5rem;
+}
+
+#main_content_wrap p img {
+    width: 50%;
+    float: right;
+    margin-right: 5rem;
+
+
+}
+
+#main_content_wrap table {
+    padding: 0;
+    float: left;
+    margin-right: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 3rem;
+    width: 100%
+}
+
+#main_content_wrap a {
+    color: darkorange;
+}
+
+table tr {
+    border-top: 1px solid #cccccc;
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(2n) {
+    /* background-color: #f8f8f8;  */
+}
+
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr th :first-child,
+table tr td :first-child {
+    margin-top: 0;
+}
+
+table tr th :last-child,
+table tr td :last-child {
+    margin-bottom: 0;
+}
+
+#main_content p a {
+    color: lightskyblue;
+
+
+}
+
+.post_background p img {
     max-height: 15rem;
 
-    
+
 }
 
 
-.post_background div h2{
+.post_background div h2 {
     float: left;
     width: 100%;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.post_background div h3{
+.post_background div h3 {
     float: left;
     width: 100%;
     text-align: center;
@@ -81,6 +150,15 @@ li a {
 li:hover {
     background: silver;
     cursor: pointer;
+}
+
+li.page-item:hover{
+    background: none;
+    cursor: pointer;
+}
+
+li a.page-link {
+    color: white;
 }
 
 ul li ul {
@@ -154,4 +232,3 @@ footer ul li a {
 .test {
     background-color: aqua;
 }
-
