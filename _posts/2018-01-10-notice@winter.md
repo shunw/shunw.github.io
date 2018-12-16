@@ -2,8 +2,8 @@
 layout: post
 title: 冬日舞蹈训练注意事项
 description: 
-# category: learn
-# tags: [stand]
+category: basic
+tags: [notice, learn]
 last_modified_at: 2018-01-10T00:00:00+00:00
 ---
 

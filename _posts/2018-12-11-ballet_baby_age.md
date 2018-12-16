@@ -2,8 +2,8 @@
 layout: post
 title: 我家娃应该几岁开始学跳舞啊
 description: 
-category: learn
-tags: [ballet, learn]
+category: basic
+tags: [child, learn]
 last_modified_at: 2018-12-11T00:00:00+00:00
 ---
 

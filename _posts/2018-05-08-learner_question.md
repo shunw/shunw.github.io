@@ -2,8 +2,8 @@
 layout: post
 title: 为什么我总是学不会
 description: 学习舞蹈，是先通过眼睛和耳朵的。
-# category: learn
-# tags: [stand]
+category: basic
+tags: [learn]
 last_modified_at: 2018-05-08T00:00:00+00:00
 ---
 

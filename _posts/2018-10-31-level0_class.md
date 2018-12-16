@@ -2,8 +2,8 @@
 layout: post
 title: 0基础班笑点多
 description: 授权转载
-category: learn
-tags: [ballet, learn]
+category: fun
+tags: [fun]
 last_modified_at: 2018-10-31T00:00:00+00:00
 ---
 

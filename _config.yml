@@ -9,3 +9,46 @@ paginate_path: '/blog/page/:num/' # start with page 1
 # timezone: Europe/Berlin
 
 
+
+# tags and categories
+# https://jekyllrb.com/docs/collections/
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+  my_tags:
+    output: true
+    permalink: /blog/tag/:name/
+
+# markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# https://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+      sitemap: false
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+      sitemap: false
