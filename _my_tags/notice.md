@@ -1,4 +1,4 @@
 ---
 slug: notice
-name: 注意
+name: 注意事项
 ---

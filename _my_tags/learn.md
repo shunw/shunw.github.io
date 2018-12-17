@@ -1,4 +1,4 @@
 ---
 slug: learn
-name: 学
+name: 芭蕾学习
 ---

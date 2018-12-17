@@ -35,12 +35,17 @@ section#cate-tags {
 
 }
 
-#main_content_wrap p img {
+#main_content_wrap p img[alt="school_map"] {
     width: 50%;
     float: right;
     margin-right: 5rem;
 
 
+}
+
+#main_content_wrap p img:not([alt="school_map"]) {
+    /* float: left; */
+    max-height: 15rem;
 }
 
 #main_content_wrap table {
