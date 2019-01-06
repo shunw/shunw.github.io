@@ -14,7 +14,7 @@ body {
 
 #body-container {
     margin: 0;
-    background-image: url('../img/sergei-gavrilov-528341-unsplash.jpg');
+    background-image: url('../img/qw.jpg');
     /* background-image: url('../image/bruno-horwath-692469-unsplash.jpg'); */
     background-repeat: repeat;
     background-size: contain;
@@ -145,7 +145,8 @@ ul {
 }
 
 li {
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     /* background: darkorange; */
     display: block;
     float: left;
@@ -156,7 +157,8 @@ li {
 }
 
 li a {
-    color: #fff;
+    /* color: #fff; */
+    color: black;
 }
 
 li:hover {
@@ -170,7 +172,8 @@ li.page-item:hover{
 }
 
 li a.page-link {
-    color: white;
+    /* color: white; */
+    color: black;
 }
 
 ul li ul {
