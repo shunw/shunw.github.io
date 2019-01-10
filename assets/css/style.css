@@ -162,7 +162,7 @@ li a {
 }
 
 li:hover {
-    background: silver;
+    background: azure;
     cursor: pointer;
 }
 
@@ -177,7 +177,7 @@ li a.page-link {
 }
 
 ul li ul {
-    background: orange;
+    background: darkseagreen;
     visibility: hidden;
     opacity: 0;
     /* min-width: 13rem; */
