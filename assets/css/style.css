@@ -162,7 +162,7 @@ li a {
 }
 
 li:hover {
-    background: azure;
+    background: #e8efa5;
     cursor: pointer;
 }
 
