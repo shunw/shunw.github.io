@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=2">
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+  <link rel="stylesheet" href="/assets/css/fullcalendar.min.css" />
+  <link rel="stylesheet" media="print" href="/assets/css/fullcalendar.print.min.css" />
+  <!-- <script src="/assets/css/moment.min.js"></script>
+  <script src="/assets/css/jquery.min.js"></script> -->
+  <script src="/assets/css/fullcalendar.js"></script>
+  <!-- <script src="/assets/css/fullcalendar.js"></script> -->
+
+  <script>
+    var calendar;
+    var loaded = function () {
+      var calendarEl = document.getElementById('calendar');
+
+      var xhr = new XMLHttpRequest();
+      // var date = new Date();
+      // var jsonFile = date.getFullYear() + '-' + (date.getMonth() + 2) + '.json';
+      var jsonFile = 'time-data.json';
+      xhr.open('GET', '/assets/data/' + jsonFile);
+
+      xhr.send(null);
+
+      xhr.onreadystatechange = function (ev) {
+
+        if (xhr.readyState === 4) {
+          if (xhr.status === 200) {
+            var data = JSON.parse(xhr.responseText);
+            for(var i = 0;i<data.length;i++) {
+              if (data[i].start) {
+                var d = Date.parse(data[i].start);
+                var timeStr = data[i].start;
+                if (!isNaN(d)) {
+                  var dd = new Date(d);
+                  dd = convertUTCDateToLocalDate(dd);
+                  var h = dd.getHours();
+                  var hh = h.toString();
+                  if (h < 10) {
+                    hh = '0'+hh;
+                  }
+                  var min = dd.getMinutes();
+                  var mm = min.toString();
+                  if (min < 10) {
+                    mm = '0'+ mm;
+                  }
+                  timeStr = hh +':'+mm;
+                }
+                data[i].title = timeStr + ' ' + data[i].title;
+              }
+            }
+            calendar = new FullCalendar.Calendar(calendarEl, {
+              header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,basicWeek,basicDay'
+              },
+              // defaultDate: '2018-12-12',
+              navLinks: true, // can click day/week names to navigate views
+              editable: true,
+              eventLimit: true, // allow "more" link when too many events
+              events: data,
+              displayEventTime: false
+            });
+
+            calendar.render();
+          } else {
+            document.getElementById('calendar').innerText = 'Sorry...';
+          }
+        }
+
+      };
+
+
+
+    };
+
+    document.addEventListener('DOMContentLoaded', loaded);
+
+    function convertUTCDateToLocalDate(date) {
+      var newDate = new Date(date.getTime()); //+date.getTimezoneOffset()*60*1000);
+  
+      var offset = date.getTimezoneOffset() / 60;
+      var hours = date.getHours();
+  
+      newDate.setHours(hours + offset);
+  
+      return newDate;   
+  }
+  </script>
+  <style>
+    body {
+      margin: 40px 10px;
+      padding: 0;
+      font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+      font-size: 14px;
+    }
+
+    #calendar {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="body-container">
+    <!-- HEADER -->
+
+    {% include nav.html %}
+
+    <div id='calendar'></div>
+
+    <!-- FOOTER  -->
+
+    {% include footer.html %}
+  </div>
+
+
+</body>
+
+</html>
