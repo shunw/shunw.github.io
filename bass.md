@@ -18,7 +18,7 @@ title: 贝斯笔记
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
-### Lesson 6 - Exercises to use in your daily practice rountine
+### __Lesson 6 - Exercises to use in your daily practice rountine__
 
 - Two shapes to play major scales 
 
@@ -47,7 +47,7 @@ title: 贝斯笔记
 
     - C Major two shapes on the 8th E chord + skipping third
 
-### Lesson 10 - Creating Bass Lines Using the Dorian Mode
+### __Lesson 10 - Creating Bass Lines Using the Dorian Mode__
 
 - Dorian Mode + Miner / Miner 7 chords
 
