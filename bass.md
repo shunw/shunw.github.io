@@ -20,7 +20,32 @@ title: 贝斯笔记
 
 ### Lesson 6 - Exercises to use in your daily practice rountine
 
-- 2 shapes to play major scale
+- Two shapes to play major scales 
+
+    - purpose: link 2 major scales shapes through up octave & on up to a high fifth
+
+    - example is A Major/ detailed explanation 1:55 & 2:36
+
+    - go through practice (3:54)
+
+- Skipping in thirds 
+    - example is C Major/ detailed explanation 4:50
+
+    - go through practice (7:20)
+
+- Practice @ 100 bpm (9:30), consist of below back and forth: 
+    
+    - C Major type I 
+
+    - C Major type II
+
+    - C Major type I skipping third
+
+    - C Major chord + C Major 7th chord + C Major & C Major 7th chord
+
+    - C Major two shapes on the 8th E chord
+
+    - C Major two shapes on the 8th E chord + skipping third
 
 ### Lesson 10 - Creating Bass Lines Using the Dorian Mode
 
