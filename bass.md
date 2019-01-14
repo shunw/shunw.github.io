@@ -18,6 +18,10 @@ title: 贝斯笔记
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
+### Lesson 6 - Exercises to use in your daily practice rountine
+
+- 2 shapes to play major scale
+
 ### Lesson 10 - Creating Bass Lines Using the Dorian Mode
 
 - Dorian Mode + Miner / Miner 7 chords
