@@ -148,6 +148,10 @@ table tr td :last-child {
 
 }
 
+#main_content {
+    width: 100%;
+}
+
 .post_background p img {
     max-height: 15rem;
 
