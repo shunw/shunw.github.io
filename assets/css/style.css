@@ -75,6 +75,13 @@ section#cate-tags {
     width: 100%;
 }
 
+#main_content_wrap ul li.page-item{
+    list-style: none;
+    padding-left: 1.5rem;
+    width:0;
+
+}
+
 #main_content_wrap img{
     max-width: 100%;
 }
