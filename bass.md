@@ -18,6 +18,34 @@ title: 贝斯笔记
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
+### __Lesson 4 - What are Arpeggios and why you should play them__
+
+- play the chord tones
+
+- word mean: Broken chord. the Italian meaning is Harp-like, due to the nature of the instrument, the notes on a Harp sustain. / Fundamentally, every note is played individually. 
+
+- difference between chord and arpeggios
+    
+    - chord: played at the same time. 
+
+    - arpeggios: play chord tones individually in sequence either up or down. 
+
+- C Triad/ C Major arpeggios
+
+    - C Major Triad: C -> E -> G
+
+    - C Major Arpeggios: C -> E -> G -> C
+
+- examples with C major arpeggios: 
+
+    - ex1 (2:57): up
+
+    - ex2 (3:24): down
+
+    - ex3 (4:13): up and down
+
+    - ex4 (6:02 & 7:21): other finger shape for the major arpeggios
+
 ### __Lesson 6 - Exercises to use in your daily practice rountine__
 
 - Two shapes to play major scales 
