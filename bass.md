@@ -58,7 +58,7 @@ title: 贝斯笔记
 
     - Major 7th: 1st, 3rd, 5th, 7th/ C Major 7th: C E G B
 
-        - write as: C major 7th; C maj 7; CM 7; C:small_red_triangle:7
+        - write as: C major 7th; C maj 7; CM 7; C :small_red_triangle: 7
 
 ### __Lesson 6 - Exercises to use in your daily practice rountine__
 
