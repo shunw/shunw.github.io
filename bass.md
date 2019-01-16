@@ -18,6 +18,7 @@ title: 贝斯笔记
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
+
 ### __Lesson 4 - What are Arpeggios and why you should play them__
 
 - play the chord tones
@@ -45,6 +46,19 @@ title: 贝斯笔记
     - ex3 (4:13): up and down
 
     - ex4 (6:02 & 7:21): other finger shape for the major arpeggios
+
+
+### __Lesson 5 - Extending the Major Triad__
+
+- chord tones consist of: 1st, 3rd, 5th, 7th
+
+- difference between Major Triad & Major 7th chord
+
+    - Major Triad: 1st, 3rd, 5th/ C Major Triad: C E G
+
+    - Major 7th: 1st, 3rd, 5th, 7th/ C Major 7th: C E G B
+
+        - write as: C major 7th; C maj 7; CM 7; C:small_red_triangle:7
 
 ### __Lesson 6 - Exercises to use in your daily practice rountine__
 
