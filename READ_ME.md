@@ -13,6 +13,6 @@ https://stackoverflow.com/questions/13239368/git-how-to-close-commit-editor/2834
 Save the file in the editor. If it's Emacs: CTRL+X CTRL+S to save then CTRL+X CTRL+C to quit or if it's vi: :wq
 
 
-### emoj ..
+### emoji ..
 
 https://gist.github.com/rxaviers/7360908
