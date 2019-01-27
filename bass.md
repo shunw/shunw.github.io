@@ -56,7 +56,7 @@ title: 贝斯笔记
     - ![ex4](/../assets/img/bass/inter-4-ex4.png)
 
 
-### __Lesson 5 - Extending the Major Triad__
+### __Lesson 5 - Extending the Major Triad [tbc]__
 
 - chord tones consist of: 1st, 3rd, 5th, 7th
 
@@ -68,7 +68,7 @@ title: 贝斯笔记
 
         - write as: C major 7th; C maj 7; CM 7; C :small_red_triangle: 7
 
-### __Lesson 6 - Exercises to use in your daily practice rountine__
+### __Lesson 6 - Exercises to use in your daily practice rountine [tbc]__
 
 - Two shapes to play major scales 
 
@@ -97,7 +97,7 @@ title: 贝斯笔记
 
     - C Major two shapes on the 8th E chord + skipping third
 
-### __Lesson 10 - Creating Bass Lines Using the Dorian Mode__
+### __Lesson 10 - Creating Bass Lines Using the Dorian Mode[tbc]__
 
 - Dorian Mode + Miner / Miner 7 chords
 
