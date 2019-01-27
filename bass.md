@@ -41,19 +41,19 @@ title: 贝斯笔记
 
     - ex1 (2:57): up
 
-    - ![ex1](/../assets/img/bass/inter-4-ex1.png)
+    ![ex1](/../assets/img/bass/inter-4-ex1.png)
 
     - ex2 (3:24): down
 
-    - ![ex2](/../assets/img/bass/inter-4-ex2.png)
+    ![ex2](/../assets/img/bass/inter-4-ex2.png)
 
     - ex3 (4:13): up and down
 
-    - ![ex3](/../assets/img/bass/inter-4-ex3.png)
+    ![ex3](/../assets/img/bass/inter-4-ex3.png)
 
     - ex4 (6:02 & 7:21): other finger shape for the major arpeggios
 
-    - ![ex4](/../assets/img/bass/inter-4-ex4.png)
+    ![ex4](/../assets/img/bass/inter-4-ex4.png)
 
 
 ### __Lesson 5 - Extending the Major Triad [tbc]__
