@@ -18,6 +18,38 @@ title: 贝斯笔记
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
+### __Lesson 2 - Play in Key__
+
+- purpose: introduce a concept that will simplify the way you think of in major scale notes and lay the building blocks for you to move on and better understand the musical notion in the future. 
+
+- certain rules to obey when naming notes, #/b -> key signature
+    
+    - 3rd note of E major scale could be Ab or G#
+    
+    - E key signature is 
+    ![keyE](/../assets/img/bass/keyE.png)
+    
+    - the key signature dictates 3rd is # or b
+
+- rule 1: each individual major scale is, in it self a key signature. / root note of any jamor scale is __its key__
+    
+    - ex: C major scale is key of C major
+
+    - ex: E major scale is in the key of E major
+
+- rule 2: if you start a major scale on a flat note, refer to accidentals in that scale as flat notes. (also could apply on the F major scale)
+
+    - ex: Eb major scale: Eb - F - G - Ab - Bb - C - D - Eb
+
+    - ex: Ab major scale: Ab - Bb - C - Db - Eb - F - G - Ab
+
+- rule 3: if you start a major scale on a sharp note, refer to accidentals in that scale as sharp notes. (also could apply on the B / E / A / D / G major)
+    
+    - remember as **B**OOTSY **G**ROOVES **A**ND **E**VERYONE **D**ANCES
+
+    - ex: F# major scale: F# - G# - A# - B - C# - D# - E# - F#
+
+- practice: familiar with all the 12 major scale with theirs notes
 
 ### __Lesson 4 - What are Arpeggios and why you should play them__
 
