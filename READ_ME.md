@@ -16,3 +16,8 @@ Save the file in the editor. If it's Emacs: CTRL+X CTRL+S to save then CTRL+X CT
 ### emoji ..
 
 https://gist.github.com/rxaviers/7360908
+
+
+### command to try web ..
+
+bundle exec jekyll serve

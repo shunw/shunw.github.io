@@ -107,7 +107,7 @@ title: 贝斯笔记
 
 - Example 1/ 2:25 (D Dorian exclusively - __Blues Rock__ VAMP on D minor 7th chord. )
 
-    - ![ex1](/../assets/img/bass/inter-10-ex1.png)
+![ex1](/../assets/img/bass/inter-10-ex1.png)
 
 - Example 2/ 6:23 (C Dorian - __Reggae__ Bass Line - C Minor 7th VAMP) 
 
