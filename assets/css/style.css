@@ -152,6 +152,11 @@ table tr td :last-child {
     width: 100%;
 }
 
+/* #main_content ul li{
+    width: 100%;
+    
+} */
+
 .post_background p img {
     max-height: 15rem;
 
@@ -321,6 +326,89 @@ ol li {
     z-index: 10;
 }
 
+ul li a span.mobile-hide{
+    padding-left: .5rem;
+}
+
+
+.post-hide ul {
+    /* background: darkorange; */
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1rem;
+    z-index: 2;
+    
+    
+}
+
+.post-hide li {
+    /* color: #fff; */
+    color: black;
+    /* background: darkorange; */
+    display: block;
+    /* float: left; */
+    /* padding: 1.5rem; */
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+    height: 3rem;
+    /* width: 100%; */
+}
+
+.post-hide li a {
+    /* color: #fff; */
+    color: black;
+}
+
+.post-hide li p {
+    margin: 0;
+}
+
+.post-hide li:hover {
+    background: #e8efa5;
+    cursor: pointer;
+}
+
+.post-hide li.page-item:hover{
+    background: none;
+    cursor: pointer;
+}
+
+.post-hide li a.page-link {
+    /* color: white; */
+    color: black;
+}
+
+.post-hide ul li ul {
+    background: darkseagreen;
+    visibility: hidden;
+    opacity: 0;
+    /* min-width: 13rem; */
+    width: 100%;
+    position: absolute;
+    transition: all 0.5s ease;
+    /* margin-top: 1.5rem; */
+    left: 0;
+    display: none;
+    font-size: 1rem;
+}
+
+.post-hide ul li:hover>ul,
+.post-hide ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.post-hide ul li ul li {
+    clear: both;
+    /* width: 100%; */
+    float: none;
+    height: 1.5rem;
+}
+
 @media only screen and (max-width: 600px) {
     .mobile-hide {
         display: none !important;
@@ -344,9 +432,86 @@ ol li {
         font-size: .5rem;
     }
 
+    .post-hide ul {
+        /* background: darkorange; */
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        font-size: .75rem;
+        z-index: 2;
+        
+        
+    }
+    
+    .post-hide li {
+        /* color: #fff; */
+        color: black;
+        /* background: darkorange; */
+        display: block;
+        /* float: left; */
+        /* padding: 1.5rem; */
+        position: relative;
+        text-decoration: none;
+        transition-duration: 0.5s;
+    
+        height: 2.5rem;
+        /* width: 100%; */
+    }
+    
+    .post-hide li a {
+        /* color: #fff; */
+        color: black;
+    }
+    
+    .post-hide li p {
+        margin: 0;
+    }
+    
+    .post-hide li:hover {
+        background: #e8efa5;
+        cursor: pointer;
+    }
+    
+    .post-hide li.page-item:hover{
+        background: none;
+        cursor: pointer;
+    }
+    
+    .post-hide li a.page-link {
+        /* color: white; */
+        color: black;
+    }
+    
+    .post-hide ul li ul {
+        background: darkseagreen;
+        visibility: hidden;
+        opacity: 0;
+        /* min-width: 13rem; */
+        width: 100%;
+        position: absolute;
+        transition: all 0.5s ease;
+        /* margin-top: 1.5rem; */
+        left: 0;
+        display: none;
+        font-size: .75rem;
+    }
+    
+    .post-hide ul li:hover>ul,
+    .post-hide ul li ul:hover {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+    
+    .post-hide ul li ul li {
+        clear: both;
+        /* width: 100%; */
+        float: none;
+        height: 1rem;
+    }
+    
+
 }
 
 
-ul li a span.mobile-hide{
-    padding-left: .5rem;
-}
+
