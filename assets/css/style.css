@@ -342,7 +342,7 @@ ul li a span.mobile-hide{
     
 }
 
-.post-hide li {
+.post-hide ul li {
     /* color: #fff; */
     color: black;
     /* background: darkorange; */
@@ -357,29 +357,27 @@ ul li a span.mobile-hide{
     /* width: 100%; */
 }
 
-.post-hide li a {
-    /* color: #fff; */
+/* .post-hide ul li a {
     color: black;
-}
+} */
 
-.post-hide li p {
+.post-hide ul li p {
     margin: 0;
 }
 
-.post-hide li:hover, .post-hide li:active{
+.post-hide ul li:hover{
     background: #e8efa5;
     cursor: pointer;
 }
 
-.post-hide li.page-item:hover{
+/* .post-hide li.page-item:hover{
     background: none;
     cursor: pointer;
 }
 
 .post-hide li a.page-link {
-    /* color: white; */
     color: black;
-}
+} */
 
 .post-hide ul li ul {
     background: darkseagreen;
@@ -396,7 +394,7 @@ ul li a span.mobile-hide{
 }
 
 .post-hide ul li:hover>ul,
-.post-hide ul li ul:hover, .post-hide ul li ul:active{
+.post-hide ul li ul:hover{
     visibility: visible;
     opacity: 1;
     display: block;
@@ -443,7 +441,7 @@ ul li a span.mobile-hide{
         
     }
     
-    .post-hide li {
+    .post-hide ul li {
         /* color: #fff; */
         color: black;
         /* background: darkorange; */
@@ -458,26 +456,25 @@ ul li a span.mobile-hide{
         /* width: 100%; */
     }
     
-    .post-hide li a {
-        /* color: #fff; */
+    /* .post-hide li a {
         color: black;
-    }
+    } */
     
-    .post-hide li p {
+    .post-hide ul li p {
         margin: 0;
     }
     
-    .post-hide li:hover, .post-hide li:active {
+    .post-hide ul li:hover{
         background: #e8efa5;
         cursor: pointer;
     }
     
-    .post-hide li.page-item:hover{
+    .post-hide ul li.page-item:hover{
         background: none;
         cursor: pointer;
     }
     
-    .post-hide li a.page-link {
+    .post-hide ul li a.page-link {
         /* color: white; */
         color: black;
     }
@@ -497,7 +494,7 @@ ul li a span.mobile-hide{
     }
     
     .post-hide ul li:hover>ul,
-    .post-hide ul li ul:hover, .post-hide ul li ul:active{
+    .post-hide ul li ul:hover{
         visibility: visible;
         opacity: 1;
         display: block;
