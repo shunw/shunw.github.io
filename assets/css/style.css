@@ -366,7 +366,7 @@ ul li a span.mobile-hide{
     margin: 0;
 }
 
-.post-hide li:hover {
+.post-hide li:hover, .post-hide li:active{
     background: #e8efa5;
     cursor: pointer;
 }
@@ -396,7 +396,7 @@ ul li a span.mobile-hide{
 }
 
 .post-hide ul li:hover>ul,
-.post-hide ul li ul:hover {
+.post-hide ul li ul:hover, .post-hide ul li ul:active{
     visibility: visible;
     opacity: 1;
     display: block;
@@ -467,7 +467,7 @@ ul li a span.mobile-hide{
         margin: 0;
     }
     
-    .post-hide li:hover {
+    .post-hide li:hover, .post-hide li:active {
         background: #e8efa5;
         cursor: pointer;
     }
@@ -497,7 +497,7 @@ ul li a span.mobile-hide{
     }
     
     .post-hide ul li:hover>ul,
-    .post-hide ul li ul:hover {
+    .post-hide ul li ul:hover, .post-hide ul li ul:active{
         visibility: visible;
         opacity: 1;
         display: block;
