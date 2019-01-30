@@ -337,7 +337,7 @@ ul li a span.mobile-hide{
     margin: 0;
     padding-left: 0;
     font-size: 1rem;
-    z-index: 2;
+    z-index: 10;
     
     
 }
@@ -438,7 +438,7 @@ ul li a span.mobile-hide{
         margin: 0;
         padding-left: 0;
         font-size: .75rem;
-        z-index: 2;
+        z-index: 10;
         
         
     }
