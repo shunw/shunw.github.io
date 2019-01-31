@@ -29,3 +29,5 @@ https://codepen.io/whqet/pen/Auzch
 
 ### to resolve the mobile hover issue
 https://css-tricks.com/forums/topic/click-function-for-hover-states-on-touch-devices/
+
+resolved by: https://stackoverflow.com/questions/14968439/ios-hover-effect-on-tap-and-not-on-click
