@@ -1,5 +1,5 @@
 <header>
-    {% if page.layout == "post" %}
+    {% if page.layout == "post" or page.layout == "post_h" %}
       <h2>{{ page.title | site.title | default: site.github.repository_name }}</h2>
       <!-- <h2>{{ page.title }}</h2> -->
       {% if page.description %}
