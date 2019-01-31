@@ -462,6 +462,7 @@ ul li a span.mobile-hide{
     
     .post-hide ul li p {
         margin: 0;
+        cursor: pointer;
     }
     
     .post-hide ul li:hover{

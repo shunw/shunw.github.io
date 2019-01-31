@@ -21,3 +21,11 @@ https://gist.github.com/rxaviers/7360908
 ### command to try web ..
 
 bundle exec jekyll serve
+
+
+### mark for firework HTML making
+https://codepen.io/whqet/pen/Auzch
+
+
+### to resolve the mobile hover issue
+https://css-tricks.com/forums/topic/click-function-for-hover-states-on-touch-devices/
