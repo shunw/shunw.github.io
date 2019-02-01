@@ -31,3 +31,7 @@ https://codepen.io/whqet/pen/Auzch
 https://css-tricks.com/forums/topic/click-function-for-hover-states-on-touch-devices/
 
 resolved by: https://stackoverflow.com/questions/14968439/ios-hover-effect-on-tap-and-not-on-click
+
+about touchend
+
+https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
