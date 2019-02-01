@@ -1,33 +1,5 @@
 import re
 
-# check if this is start with number or j/ c
-
-# fl = open('2019-01-29-jp31.md', "rt", encoding="utf-8")
-
-# count = 0
-# for line in fl: 
-#     line = line.rstrip()
-#     count += 1
-#     if not line: continue
-    
-#     if count >=9 and count <= 11: 
-#         print (line, len(line))
-#         # print (len(line))
-# print (count)
-
-# class jp_text_content(object):
-#     def __init__(self, content):
-#         self.content = content
-        
-    
-#     def content_ind(self):
-#         count = 0
-#         for line in self.content:
-#             line.
-#             count += 1
-
-
-
 class transfer_2_hide(object):
     def __init__(self, fl_name):
         self.fl_name = fl_name
@@ -47,18 +19,30 @@ class transfer_2_hide(object):
     
     def transf_sen(self):
         # to change the one by one
-        for ind, num in enumerate(self.sen_start_list[:-1]):
+        for ind, num in enumerate(self.sen_start_list[:-2]):
             valid_ind_temp = list()
             valid_ind_temp.append(ind)
             startnum = num
             nextnum = num + 1
-            while nextnum < self.sen_start_list[ind + 1]:
+            next_point = self.sen_start_list[ind + 1]
+
+            while nextnum < next_point:
                 if self.data_0_dict[nextnum]: 
                     jp = self.data_0_dict[startnum]
+                    if re.match('^[0-9+]', jp): 
+                        jp = jp.split('.', 1)[-1]
                     ch = self.data_0_dict[nextnum]
-                    self.data_0_dict[startnum] = ch
-                    self.data_0_dict[nextnum] = jp
+                    self.data_0_dict[startnum] = '- ' +  ch
+                    self.data_0_dict[nextnum] = '    - ' + jp
+                    
                     startnum = nextnum + 1
+                    
+                    while startnum < next_point: 
+                        if self.data_0_dict[startnum]: 
+                            break
+                        else: 
+                            startnum += 1
+                    
                     nextnum = startnum + 1
                 else: 
                     nextnum += 1
@@ -68,10 +52,18 @@ class transfer_2_hide(object):
         pass
     
     def final_run(self):
-        f = open('test.md', 'wb', encoding = 'utf-8'):
-        f.write
-        
+        self.transf_sen()
+        # f = open('test.md', 'wb', encoding = 'utf-8')
+        # for k, v in self.data_0_dict.items():
+        #     print (v)
+        #     f.write(v)
+
+        with open('test.md', 'w+', encoding = 'utf-8') as f: 
+            for k, v in self.data_0_dict.items():
+                f.write(v + '\n')
+        f.close()        
 
 if __name__ == '__main__':
     a = transfer_2_hide('2019-01-29-jp31.md')
-    a.transf_sen()
+    a.final_run()
+    
