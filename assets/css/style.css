@@ -407,6 +407,17 @@ ul li a span.mobile-hide{
     height: 1.5rem;
 }
 
+.canvas {
+    background: #000;
+    margin: 0;
+    cursor: crosshair;
+    display: block;
+    color: white;
+}
+
+.canvas .nav-click ul li a{
+    color: lightskyblue;
+}
 @media only screen and (max-width: 600px) {
     .mobile-hide {
         display: none !important;
