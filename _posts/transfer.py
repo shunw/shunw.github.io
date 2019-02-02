@@ -1,7 +1,7 @@
 import re
 
 class transfer_2_hide(object):
-    def __init__(self, fl_name):
+    def __init__(self, fl_name, save_flname_same = "False"):
         self.fl_name = fl_name
         self.data_0 = open(self.fl_name, 'rt', encoding = 'utf-8')
         
@@ -16,6 +16,10 @@ class transfer_2_hide(object):
             if re.match('^[c|j][0-9]', line): self.text_start_list.append(count)
             count += 1
 
+        if not save_flname_same: 
+            self.save_flname = 'test.md'
+        else: 
+            self.save_flname = fl_name
     
     def transf_sen(self):
         # to change the one by one
@@ -49,21 +53,48 @@ class transfer_2_hide(object):
         
     
     def transf_text(self):
-        pass
+        ind_1 = 0
+        
+        while ind_1 < len(self.text_start_list) - 1:
+            ind_2 = ind_1 + 1    
+            
+            text_ind_1 = self.text_start_list[ind_1]
+            text_ind_2 = self.text_start_list[ind_2]
+
+            if re.match('^c', self.data_0_dict[text_ind_1]): 
+                c_ind = text_ind_1
+                c_content = self.data_0_dict[c_ind]
+                j_ind = text_ind_2
+                j_content = self.data_0_dict[j_ind]
+
+            elif re.match('^c', self.data_0_dict[text_ind_2]):
+                c_ind = text_ind_2
+                c_content = self.data_0_dict[c_ind]
+                j_ind = text_ind_1
+                j_content = self.data_0_dict[j_ind]
+
+            else: 
+                print ('something wrong')
+            
+            self.data_0_dict[text_ind_1] = '- ' + c_content.split(':', 1)[-1].strip()
+            self.data_0_dict[text_ind_2] = '    - ' + j_content.split(':', 1)[-1].strip()
+
+            ind_1 = ind_1 + 2
+            
+            
     
     def final_run(self):
         self.transf_sen()
-        # f = open('test.md', 'wb', encoding = 'utf-8')
-        # for k, v in self.data_0_dict.items():
-        #     print (v)
-        #     f.write(v)
 
-        with open('test.md', 'w+', encoding = 'utf-8') as f: 
+        self.transf_text()
+        
+        with open(self.save_flname, 'w+', encoding = 'utf-8') as f: 
             for k, v in self.data_0_dict.items():
                 f.write(v + '\n')
         f.close()        
 
 if __name__ == '__main__':
-    a = transfer_2_hide('2019-01-29-jp31.md')
+    fl_name = '2019-01-29-jp12.md'
+    a = transfer_2_hide(fl_name, save_flname_same = "True")
     a.final_run()
     
