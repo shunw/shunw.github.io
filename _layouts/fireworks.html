@@ -308,8 +308,8 @@
       // mouse event bindings
       // update the mouse coordinates on mousemove
       canvas.addEventListener('touchmove', function (e) {
-        mx = e.pageX - canvas.offsetLeft;
-        my = e.pageY - canvas.offsetTop;
+        mx = e.targetTouches[0].pageX - canvas.offsetLeft;
+        my = e.targetTouches[0].pageY - canvas.offsetTop;
       });
 
       // toggle mousedown state and prevent canvas from being selected
