@@ -18,6 +18,44 @@ title: 贝斯笔记
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
+### __Lesson 1 - The 12 major scales explained__
+
+- **PURPOSE**: introduce other major scales; what is ACCIDENTALS. 
+
+- **TAKEAWAY**: 
+
+    - bass guitar is the instruments tuned symmetrically
+
+        - the interval or distance between the pitches of our open strings is always the same. 
+
+        - How can we make use of it? 
+
+            - record the shape of C major scale and start from other root notes. 
+
+    - there are 12 semi-tones intervals contains within one octave. 
+
+        - A, A#/Bb, B, C, C#/Db, C, D#/Eb, E, F, F#/Gb, G, G#/Ab
+
+        - We can take any of these 12 notes and use them as root note to begin a major scale from
+
+        - strive to achieve the same level of the confidence with any of the other major scales in terms of knowing the notes that used to construct them
+    
+    - When you pick a major scale please make sure to choose the root note from the E string/ A string that way you have the space availbe to complete the scale up and down
+
+    - It's the order of notes, and more importantly, the intervals between notes of individual notes that dictates the sound or character of any scale. 
+
+    - unnatural notes #/b are known as ACCIDENTALS
+
+- **PRACTICE**: 
+
+    - list 12 semi-tones contained in an octave.
+
+    - use those notes as root notes to begin ohter major scales from.
+
+    - say the note names out aloud when you play the major scale. 
+
+    - use both major scale shapes during the exercises. 
+
 ### __Lesson 2 - Play in Key__
 
 - **PURPOSE**: introduce a concept that will simplify the way you think of in major scale notes and lay the building blocks for you to move on and better understand the musical notion in the future. 
@@ -51,6 +89,86 @@ title: 贝斯笔记
     - ex: F# major scale: F# - G# - A# - B - C# - D# - E# - F#
 
 - **PRACTICE**: familiar with all the 12 major scale with theirs notes
+
+### __Lesson 3 - How scales are linked to chords__
+
+- **Purpose**: 
+
+    - look at how the scale links to chords 
+    
+    - how to use this relationship to contruct musical ideas
+
+- start within C major scale chord tones
+
+- CHORD TONES: 1st 3rd 5th 7th notes, which is C E G B 
+
+- TRIAD:
+    
+    - Any three chord tones of any scale and create somthing called triad
+
+    - different type of triad depending on the scales we use. 
+
+    - C Major Triad: C E G, due to it contained within C major scale
+    
+    - if we play the C major Triad **together** at the same time we create C major CHORD
+
+- INTERVALS: 
+    
+    - as bass players, we want to be able to spell out the sound of any chord just by using individual notes, and to really get this concept under our belts, we need to learn about intervals. 
+
+    - the term INTERVALS is used to describe the distance between two notes in music
+
+    - Interval Major 3rd: 
+        
+        - ex: C -> E
+
+        - interval between these two notes in music is what's called a major 3rd
+
+        - the shape is always the interval of a major 3rd no matter where we choose to play it
+
+        - but as you are hopefully aware it's the notes the change as we move the shape around
+
+        - ex: C -> E + G -> B both notes are used to form a major triad
+
+        - learn how to play intervals in different ways 
+
+        - Below two shapes are differnt, but they use EXACTLY the same notes. 
+
+        - shape 1 & shape 2
+
+        ![major3](/../assets/img/bass/inter-3-major3.png)    
+
+    - Interval perfect 5th: C -> G
+
+        - shape 1 & shape 2 (lower than the root notes, use in the Country ex 6:16; Reggae feel ex 6:27) :
+
+        ![perfect5](/../assets/img/bass/inter-3-perfect5.png)    
+    
+    - Interval of Octave: 
+        
+        - shape: 
+
+        ![octave](/../assets/img/bass/inter-3-octave.png)    
+
+        - ex: 7:21
+
+        - ex: 7:36
+
+    - Interval of Major 3rd an octave lower, ex: 8:00: 
+        
+        - shape: 
+
+        ![major3lower](/../assets/img/bass/inter-3-major3lower.png)    
+
+    - Interval of Major 3rd free style, ex: 8:35: 
+
+        - even though major triad is just three notes, by varying where you to play these notes either up or down the octave, can open up a lot of musical possibilities and in turn give us more ideas theat outling the sound of major chord
+
+        ![freestyle](/../assets/img/bass/inter-3-freestyle.png)    
+
+- **PRACTICE**
+
+    - C major Practive Groove 9:46
 
 ### __Lesson 4 - What are Arpeggios and why you should play them__
 
