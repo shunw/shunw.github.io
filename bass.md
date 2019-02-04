@@ -5,18 +5,20 @@ title: 贝斯笔记
 
 # Bass Guitar - Intermediate Lessons
 
+This is for my own bass learning note. The original learning resource link is [here](https://www.youtube.com/playlist?list=PLImrzCNnL5PnVQNFhaxgOa1iJV4zMolw-). 
+
 | No | Title | Duration |
 | --- | --- | --- |
-| 1 | The 12 major scales explained | 7:32 |
-| 2 | Playing in Key | 7:36 |
-| 3 | How Scales are linked to Chords | 10:31 |
-| 4 | What are Arpeggios and why you should play them | 9:33 |
-| 5 | Extending the Major Triad | 9:43 |
-| 6 | Exercises to use in your daily practice rountine | 12:03 |
+| 1d | The 12 major scales explained | 7:32 |
+| 2d | Playing in Key | 7:36 |
+| 3d | How Scales are linked to Chords | 10:31 |
+| 4d | What are Arpeggios and why you should play them | 9:33 |
+| 5t | Extending the Major Triad | 9:43 |
+| 6t | Exercises to use in your daily practice rountine | 12:03 |
 | 7 | What are Modes and why you should play them | 8:59 |
 | 8 | What is the Dorian Mode? | 9:12 |
 | 9 | The Dorian Mode Continued | 13:02 |
-| 10 | Creating Bass Lines Using the Dorian Mode | 13:23 |
+| 10t | Creating Bass Lines Using the Dorian Mode | 13:23 |
 
 ### __Lesson 1 - The 12 major scales explained__
 
@@ -247,6 +249,34 @@ title: 贝斯笔记
     - C Major two shapes on the 8th E chord
 
     - C Major two shapes on the 8th E chord + skipping third
+
+### __Lesson 7 - What are Modes and why you should play them__
+
+- **PURPOSE**: to briefly introduce the concept of modes
+
+- What exactly are 'modes'?
+    
+    - the concept behind modes, originated in ANCIENT GREECE. From these beginnings in Greece, the concept of modes was eventually adopted by the Catholic church in Rome
+
+    - Modes are basically scales, and importantly they possess their own unique indivuidual character and mode
+
+    - learn major scale first is that it serves as pefect gateway to enter into the world Modes. 
+
+    - the reason why they're called modes in the first place is that they are **not different scales**, but instad, different sequences of notes, all modes taken from scales we already know. 
+
+- the modes of the major scale: Ionian / Major Scale used the notes contain in it. We can create other scale or modes from it, and the different modes that we create using this process are refer to the music as **the modes of the major scale**. 
+
+    - Take example from C major scale, the following modes are only using the notes form the C major scales. 
+
+| start from ?th note | mode | charactor |
+| --- | --- | ---|
+| 1 | C Ionian | contain 7 different toens; 3rd & 4th, 7th & 8th are semi tones |
+| 2 | D Dorian | tbd | 
+| 3 | E Phrygian| tbd |
+| 4 | F Lydian | tbd |
+| 5 | G Mixolydian | tbd |
+| 6 | A Aeolian | tbd |
+| 7 | B Locrian | tbd |
 
 ### __Lesson 10 - Creating Bass Lines Using the Dorian Mode[tbc]__
 
