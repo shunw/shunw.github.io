@@ -373,6 +373,7 @@ This is for my own bass learning note. The original learning resource link is [h
     ![min7-1](/../assets/img/bass/inter-9-min7-arp-1.png)
 
     - shape 2 (details: 10:43; practice: 11:35)
+    
     ![min7-2](/../assets/img/bass/inter-9-min7-arp-2.png)
 
 
