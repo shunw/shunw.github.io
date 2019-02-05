@@ -302,9 +302,17 @@ This is for my own bass learning note. The original learning resource link is [h
 
     - shape 1: (detailed explanation: 2:19; practice example: 3:38)
 
+    ![d1](/../assets/img/bass/inter-8-ddori-s1.png)
+
     - shape 2: (detailed explanation: 4:39; practice example: 4:55)
 
+    ![d2](/../assets/img/bass/inter-8-ddori-s2.png)
+
     - apply skip 3rd in D Dorian. (guide you through how to skip in D Dorian 6:32; practice 7:42)
+
+    ![s1](/../assets/img/bass/inter-8-ddori-skp3-1.png)
+
+    ![s2](/../assets/img/bass/inter-8-ddori-skp3-2.png)
 
 
 
