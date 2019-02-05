@@ -280,27 +280,31 @@ This is for my own bass learning note. The original learning resource link is [h
 
 ### __Lesson 8 - What is the Dorian Mode?__
 
-- Based on the C Major Scale
+*Based on the C Major Scale*
 
-- Dorian Mode only use the notes from C major scale
+- **Basic**: 
 
-- Dorian is known as the 2nd mode of the major scale. All we have to construct is start from the 2nd note which is D. 
+    - Build Dorian Mode only use the notes from C major scale
 
-    - ex: 2nd mode of D major scale is E Dorian
+    - D Dorian is the 2nd mode of the C major scale; E Dorian is the 2nd mode of D major scale. 
+
+    - start from the 2nd note which is D from major scale.
 
 - **Main Content**: Familiar with D Dorian shapes and say the note name out loud.
 
-    - go with what feels nature ot you most as an indidual. 
+    - go with what feels nature to you most, as an individual. 
 
-    - Don't limit yourself to one position. To explore the other ways you can spell out the sound of D Dorian in the position across the neck by finding the notes from C major, you can easily create D Dorian else where on the nack. 
+    - Don't limit yourself to one position. To explore the other ways you can spell out the sound of D Dorian in the position across the neck. By finding the notes from C major, you can easily create D Dorian elsewhere on the neck. 
 
     - It's important to get used to play modes and scales through and beyond the typical one octave range
 
-    - apply skip 3rd in D Dorian. (guide you through how to skip in D Dorian 6:32; practice 7:42)
+- **shapes and skip 3rd**:
 
     - shape 1: (detailed explanation: 2:19; practice example: 3:38)
 
     - shape 2: (detailed explanation: 4:39; practice example: 4:55)
+
+    - apply skip 3rd in D Dorian. (guide you through how to skip in D Dorian 6:32; practice 7:42)
 
 
 
