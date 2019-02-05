@@ -15,7 +15,7 @@ This is for my own bass learning note. The original learning resource link is [h
 | 4d | What are Arpeggios and why you should play them | 9:33 |
 | 5t | Extending the Major Triad | 9:43 |
 | 6t | Exercises to use in your daily practice rountine | 12:03 |
-| 7 | What are Modes and why you should play them | 8:59 |
+| 7d | What are Modes and why you should play them | 8:59 |
 | 8 | What is the Dorian Mode? | 9:12 |
 | 9 | The Dorian Mode Continued | 13:02 |
 | 10t | Creating Bass Lines Using the Dorian Mode | 13:23 |
@@ -277,6 +277,36 @@ This is for my own bass learning note. The original learning resource link is [h
 | 5 | G Mixolydian | tbd |
 | 6 | A Aeolian | tbd |
 | 7 | B Locrian | tbd |
+
+### __Lesson 8 - What is the Dorian Mode?__
+
+- Based on the C Major Scale
+
+- Dorian Mode only use the notes from C major scale
+
+- Dorian is known as the 2nd mode of the major scale. All we have to construct is start from the 2nd note which is D. 
+
+    - ex: 2nd mode of D major scale is E Dorian
+
+- **Main Content**: Familiar with D Dorian shapes and say the note name out loud.
+
+    - go with what feels nature ot you most as an indidual. 
+
+    - Don't limit yourself to one position. To explore the other ways you can spell out the sound of D Dorian in the position across the neck by finding the notes from C major, you can easily create D Dorian else where on the nack. 
+
+    - It's important to get used to play modes and scales through and beyond the typical one octave range
+
+    - apply skip 3rd in D Dorian. (guide you through how to skip in D Dorian 6:32; practice 7:42)
+
+    - shape 1: (detailed explanation: 2:19; practice example: 3:38)
+
+    - shape 2: (detailed explanation: 4:39; practice example: 4:55)
+
+
+
+### __Lesson 9 - The Dorian Mode Continued__
+
+
 
 ### __Lesson 10 - Creating Bass Lines Using the Dorian Mode[tbc]__
 
