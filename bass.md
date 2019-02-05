@@ -318,6 +318,62 @@ This is for my own bass learning note. The original learning resource link is [h
 
 ### __Lesson 9 - The Dorian Mode Continued__
 
+**AIM**: to get you associating and using the Dorian Mode with a chord by looking at the intervals contains within these mode, and introducing another triad arpeggio and chord
+
+- D Dorian consist of D(1st) E F(3rd) G A(5th) B C(7th)
+
+- Interval between D and F is called minor 3rd
+
+    - shape 1 (D -> F)
+
+    ![min3-1](/../assets/img/bass/inter-9-min3-1.png)
+
+    - shape 2 (D -> F)
+
+    ![min3-2](/../assets/img/bass/inter-9-min3-2.png)
+
+- Interval between D and A is called interval of a fifth
+
+    - shape
+    
+    ![5](/../assets/img/bass/inter-9-5.png)
+
+- minor TRIAD: first 3 chord tones
+
+    - D F A create minor triad. 
+    
+    - the root note is D, so this is called D minor Triad
+
+    - Play these three notes together would create D minor chord
+
+    - Difference between minor triad to a major triad is minor triad contains a minor third, while major triad contains a major third
+
+- minor 7th
+
+    - adding the 4th note would construct D minor 7th chord which also noted as Dm7, D-7, Dminor7th, Dmin7
+
+    - D F A C => minor 7th; the root note is D, so this is called D minor 7th
+
+    - All chord tones of a Dorian mode spell out a minor 7th chord
+
+- arpeggio (D) minor:
+
+    - shape 1 (D min arpeggio, details: 7:17; practice: 7:50)
+    
+    ![min-1](/../assets/img/bass/inter-9-min-arp-1.png)
+
+    - shape 2 (details: 8:26; practice: 9:17)
+
+    ![min-2](/../assets/img/bass/inter-9-min-arp-2.png)
+
+- arpeggio (D) minor 7th:
+
+    - shape 1 (details: 9:55; practice: 10:18)
+
+    ![min7-1](/../assets/img/bass/inter-9-min7-arp-1.png)
+
+    - shape 2 (details: 10:43; practice: 11:35)
+    ![min7-2](/../assets/img/bass/inter-9-min7-arp-2.png)
 
 
 ### __Lesson 10 - Creating Bass Lines Using the Dorian Mode[tbc]__
