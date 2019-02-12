@@ -393,10 +393,15 @@ ul li a span.mobile-hide{
     font-size: 1rem;
 }
 
-.post-hide ul li:hover>ul{
+.post-hide ul li p:hover + ul{
     visibility: visible;
     opacity: 1;
     display: block;
+}
+
+.post-hide ul li ul:hover {
+    visibility: hidden;
+    display: none;
 }
 
 .post-hide ul li ul li {
@@ -504,11 +509,15 @@ ul li a span.mobile-hide{
         font-size: .75rem;
     }
     
-    .post-hide ul li:hover>ul,
-    .post-hide ul li ul:hover{
+    .post-hide ul li:hover + ul{
         visibility: visible;
         opacity: 1;
         display: block;
+    }
+
+    .post-hide ul li ul:hover {
+        visibility: hidden;
+        display: none;
     }
     
     .post-hide ul li ul li {
