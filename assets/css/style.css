@@ -393,8 +393,7 @@ ul li a span.mobile-hide{
     font-size: 1rem;
 }
 
-.post-hide ul li:hover>ul,
-.post-hide ul li ul:hover{
+.post-hide ul li:hover>ul{
     visibility: visible;
     opacity: 1;
     display: block;
