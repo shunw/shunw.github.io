@@ -36,7 +36,7 @@ class transfer_2_hide(object):
                     if re.match('^[0-9+]', jp): 
                         jp = jp.split('.', 1)[-1]
                     ch = self.data_0_dict[nextnum]
-                    self.data_0_dict[startnum] = '- ' +  ch
+                    self.data_0_dict[startnum] = '- ' +  ch + '\n'
                     self.data_0_dict[nextnum] = '    - ' + jp
                     
                     startnum = nextnum + 1
@@ -76,7 +76,7 @@ class transfer_2_hide(object):
             else: 
                 print ('something wrong')
             
-            self.data_0_dict[text_ind_1] = '- ' + c_content.split(':', 1)[-1].strip()
+            self.data_0_dict[text_ind_1] = '- ' + c_content.split(':', 1)[-1].strip() + '\n'
             self.data_0_dict[text_ind_2] = '    - ' + j_content.split(':', 1)[-1].strip()
 
             ind_1 = ind_1 + 2
@@ -94,7 +94,7 @@ class transfer_2_hide(object):
         f.close()        
 
 if __name__ == '__main__':
-    fl_name = '2019-01-29-jp12.md'
+    fl_name = '2019-01-29-jp30.md'
     a = transfer_2_hide(fl_name, save_flname_same = "True")
     a.final_run()
     
