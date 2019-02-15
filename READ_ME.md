@@ -22,6 +22,11 @@ https://gist.github.com/rxaviers/7360908
 
 bundle exec jekyll serve
 
+### sqlite instructions...
+
+http://www.sqlitetutorial.net/sqlite-commands/
+
+
 
 ### mark for firework HTML making
 https://codepen.io/whqet/pen/Auzch
