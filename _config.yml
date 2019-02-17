@@ -52,3 +52,7 @@ defaults:
     values:
       layout: blog_by_tag
       sitemap: false
+
+<staticContent>
+    <mimeMap fileExtension=".json" mimeType="application/json" />
+</staticContent>
