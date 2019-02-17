@@ -16,7 +16,7 @@ class sql2json(object):
         # pragma table_info(category_lkup);
 
         self.rows = self.db.execute('''
-            select item.title, m.start, m.end, cat.category_name
+            select item.title, m.start, m.end
             from main_time m, item_lkup item, category_lkup cat
             where item.item_id == m.item_id and item.category_id == cat.category_id
         ''').fetchall()
