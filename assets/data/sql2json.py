@@ -24,11 +24,15 @@ class sql2json(object):
         self.conn.commit()
         self.conn.close()
 
-        return json.dumps( [dict(ix) for ix in self.rows] ) #CREATE JSON
+        js_data = json.dumps( [dict(ix) for ix in self.rows] ) #CREATE JSON
+        
+        with open('time-data.json', 'w') as outfile:
+            outfile.write(js_data)
 
+        
     def final_run(self):
         
-        print (self.sql_time())
+        self.sql_time()
 
 
 if __name__ == '__main__':
