@@ -27,6 +27,12 @@ bundle exec jekyll serve
 http://www.sqlitetutorial.net/sqlite-commands/
 
 
+### calendar use the full calendar
+
+as the recur issue, need to check the answer in the link below: 
+
+https://stackoverflow.com/questions/15161654/recurring-events-in-fullcalendar
+
 
 ### mark for firework HTML making
 https://codepen.io/whqet/pen/Auzch
