@@ -11,8 +11,14 @@
 
   <link rel="stylesheet" href="/assets/css/fullcalendar.min.css" />
   <link rel="stylesheet" media="print" href="/assets/css/fullcalendar.print.min.css" />
-  <!-- <script src="/assets/css/moment.min.js"></script>
-  <script src="/assets/css/jquery.min.js"></script> -->
+
+  
+  <!-- <script src="/assets/css/fullcalendar4/core.js"></script>
+  <script src="/assets/css/fullcalendar4/interaction.js"></script>
+  <script src="/assets/css/fullcalendar4/daygrid.js"></script> -->
+  
+  <!-- <script src="/assets/css/moment.min.js"></script> -->
+  <!-- <script src="/assets/css/moment-timezone.min.js"></script> -->
   <script src="/assets/css/fullcalendar.js"></script>
   <!-- <script src="/assets/css/fullcalendar.js"></script> -->
   
@@ -35,13 +41,14 @@
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
             var data = JSON.parse(xhr.responseText);
+            
             for(var i = 0;i<data.length;i++) {
               if (data[i].start) {
+                
                 var d = Date.parse(data[i].start);
                 var timeStr = data[i].start;
                 if (!isNaN(d)) {
                   var dd = new Date(d);
-                  dd = convertUTCDateToLocalDate(dd);
                   var h = dd.getHours();
                   var hh = h.toString();
                   if (h < 10) {
@@ -69,7 +76,7 @@
               eventLimit: true, // allow "more" link when too many events
               events: data,
               displayEventTime: false,
-              timezone:'Asia/Shanghai'
+              timezone:'local'
 
             });
 

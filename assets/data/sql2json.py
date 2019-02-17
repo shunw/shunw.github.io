@@ -23,7 +23,7 @@ class sql2json(object):
         
         self.conn.commit()
         self.conn.close()
-
+        
         js_data = json.dumps( [dict(ix) for ix in self.rows] ) #CREATE JSON
         
         with open('time-data.json', 'w') as outfile:
