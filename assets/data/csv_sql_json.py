@@ -23,6 +23,19 @@ class Csv2sqlite(object):
         for i in item_data:
             self.item_map[i[1]] = i[0]
             # {level: item_id}
+    
+    def history_data_info(self):
+        # to get the previous data to avoid double entry
+        time_data = self.cur.execute('''
+        select it.title, mn.start, mn.end 
+        from item_lkup it, main_time mn
+        where it.item_id == mn.item_id
+        ''')
+
+        self.last_data = dict()
+        for i in time_data: 
+            self.last_data[i[0]+'_'+i[1]] = i[2]
+        # print (self.last_data)
 
     def time_deal(self, time_data):
         # input 2018-07-26 15:00:50 
@@ -38,6 +51,7 @@ class Csv2sqlite(object):
         
         # to delete some useless information
         for line in self.raw_data:
+            print (line)
             if 'Started' not in line and (row_ind == 0): continue
             if (not line) and row_ind != 0: break
             self.data.append(line)
@@ -55,12 +69,16 @@ class Csv2sqlite(object):
                 
                 c += 1
             else: 
-                if item[c_ind] not in self.item_map.keys(): 
+                s_time = self.time_deal(item[s_ind])
+                f_time = self.time_deal(item[f_ind])
+                item_title = item[c_ind]
+                if item_title not in self.item_map.keys(): 
+                    # filter other personal item
+                    continue
+                elif item_title + '_' + s_time in self.last_data.keys():
+                    # filter the data already there
                     continue
                 else: 
-                    s_time = self.time_deal(item[s_ind])
-                    f_time = self.time_deal(item[f_ind])
-                    
                     temp = (self.item_map[item[c_ind]], s_time, f_time, item[cmt_ind])
                     self.to_db.append(temp)
 
@@ -69,7 +87,7 @@ class Csv2sqlite(object):
         ''', self.to_db)
         
     def final_run(self):
-        
+        self.history_data_info()
         self.item_info()
         self.csv_info()
 
