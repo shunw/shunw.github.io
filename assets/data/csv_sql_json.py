@@ -1,7 +1,12 @@
-import csv, sqlite3, re
+import csv, sqlite3, re, json
 
-class csv2sqlite(object):
+class Csv2sqlite(object):
+
     def __init__(self, fl_name): 
+        '''
+        input: csv file name, which contains the csv data from cell phone app
+        purpose/ output: insert the csv data to sqlite database
+        '''
         handle = open(fl_name)
         self.raw_data = csv.reader(handle, delimiter = ',')
         self.con = sqlite3.connect('time_data.db')
@@ -38,7 +43,7 @@ class csv2sqlite(object):
             self.data.append(line)
             row_ind += 1
 
-        # to make dict 
+        # to make list for the sql multiple insert [(item_id, start, end, comment), (item_id2, start2, end2, comment2), (item_id3, start3, end3, comment3)]
         c = 0
         self.to_db = list()
         for item in self.data:
@@ -50,7 +55,6 @@ class csv2sqlite(object):
                 
                 c += 1
             else: 
-                # (item_id, start, end, comment)
                 if item[c_ind] not in self.item_map.keys(): 
                     continue
                 else: 
@@ -63,23 +67,52 @@ class csv2sqlite(object):
         self.cur.executemany('''
         insert into main_time (item_id, start, end, comment) values (?, ?, ?, ?);
         ''', self.to_db)
-
-
-        
-        
         
     def final_run(self):
         
         self.item_info()
-        
         self.csv_info()
 
         self.con.commit()
         self.con.close()
     
+class Sql2json(object):
+    def __init__(self, db_name):
+        '''
+        input: the database name
+        purpose/ output: transfer data in database to the json
+        '''
+        self.db_name = db_name
+        self.conn = sqlite3.connect(self.db_name)
+        self.conn.row_factory = sqlite3.Row
+        self.db = self.conn.cursor()
+    
+    def sql_time(self):
+
+        self.rows = self.db.execute('''
+            select item.title, m.start, m.end, cat.color
+            from main_time m, item_lkup item, category_lkup cat
+            where item.item_id == m.item_id and item.category_id == cat.category_id
+        ''').fetchall()
+        
+        self.conn.commit()
+        self.conn.close()
+        
+        js_data = json.dumps( [dict(ix) for ix in self.rows] ) #CREATE JSON
+        
+        with open('time-data.json', 'w') as outfile:
+            outfile.write(js_data)
+
+        
+    def final_run(self):
+        
+        self.sql_time()
     
 
 if __name__ == '__main__':
-    test = csv2sqlite('raw_data.csv')
+    test = Csv2sqlite('raw_data.csv')
     test.final_run()
+
+    trans = Sql2json('./time_data.db')
+    trans.final_run()
 
