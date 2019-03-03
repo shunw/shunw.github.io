@@ -17,7 +17,7 @@ class csv2sqlite(object):
 
         for i in item_data:
             self.item_map[i[1]] = i[0]
-            # {item_id: level}
+            # {level: item_id}
 
     def time_deal(self, time_data):
         # input 2018-07-26 15:00:50 
@@ -51,10 +51,14 @@ class csv2sqlite(object):
                 c += 1
             else: 
                 # (item_id, start, end, comment)
-                s_time = self.time_deal(item[s_ind])
-                f_time = self.time_deal(item[f_ind])
-                temp = (self.item_map[item[c_ind]], s_time, f_time, item[cmt_ind])
-                self.to_db.append(temp)
+                if item[c_ind] not in self.item_map.keys(): 
+                    continue
+                else: 
+                    s_time = self.time_deal(item[s_ind])
+                    f_time = self.time_deal(item[f_ind])
+                    
+                    temp = (self.item_map[item[c_ind]], s_time, f_time, item[cmt_ind])
+                    self.to_db.append(temp)
 
         self.cur.executemany('''
         insert into main_time (item_id, start, end, comment) values (?, ?, ?, ?);
