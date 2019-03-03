@@ -94,7 +94,7 @@ class transfer_2_hide(object):
         f.close()        
 
 if __name__ == '__main__':
-    fl_name = '2019-01-29-jp30.md'
+    fl_name = '2019-01-29-jp28.md'
     a = transfer_2_hide(fl_name, save_flname_same = "True")
     a.final_run()
     
