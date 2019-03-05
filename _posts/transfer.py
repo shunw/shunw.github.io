@@ -28,16 +28,24 @@ class transfer_2_hide(object):
             valid_ind_temp.append(ind)
             startnum = num
             nextnum = num + 1
+            nextnum_2 = num + 2
             next_point = self.sen_start_list[ind + 1]
 
             while nextnum < next_point:
                 if self.data_0_dict[nextnum]: 
                     jp = self.data_0_dict[startnum]
-                    if re.match('^[0-9+]', jp): 
+                    if jp.strip().isdigit(): 
+                        ch = self.data_0_dict[nextnum_2]    
+                        jp = self.data_0_dict[nextnum]    
+                        
+                        self.data_0_dict[nextnum] = '- ' +  ch + '\n'
+                        self.data_0_dict[nextnum_2] = '    - ' + jp + '\n'
+                    
+                    elif re.match('^[0-9+]', jp): 
                         jp = jp.split('.', 1)[-1]
-                    ch = self.data_0_dict[nextnum]
-                    self.data_0_dict[startnum] = '- ' +  ch + '\n'
-                    self.data_0_dict[nextnum] = '    - ' + jp
+                        ch = self.data_0_dict[nextnum]
+                        self.data_0_dict[startnum] = '- ' +  ch + '\n'
+                        self.data_0_dict[nextnum] = '    - ' + jp + '\n'
                     
                     startnum = nextnum + 1
                     
@@ -94,7 +102,13 @@ class transfer_2_hide(object):
         f.close()        
 
 if __name__ == '__main__':
-    fl_name = '2019-01-29-jp28.md'
-    a = transfer_2_hide(fl_name, save_flname_same = "True")
-    a.final_run()
+    # fl_name = '2019-01-29-jp28.md'
+    # a = transfer_2_hide(fl_name, save_flname_same = "True")
+    # a.final_run()
+    a = '190 '
+    b = '190.daf'
+    if b.isdigit():
+        print ("T")
+    else: print ('F')
+
     
