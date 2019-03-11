@@ -104,8 +104,9 @@ class transfer_2_hide(object):
         f.close()        
 
 if __name__ == '__main__':
-    fl_name = '2019-01-29-jp33.md'
-    a = transfer_2_hide(fl_name, save_flname_same = True)
+    fl_name = input('Input the file name to transfer: ')
+    save_fl_same = input('Save it as the same name, or save it as test.md? (True or False) ')
+    a = transfer_2_hide(fl_name, save_flname_same = (save_fl_same).lower() == 'true')
     a.final_run()
 
     # a = '１９９４年の秋にできました。'.strip()
