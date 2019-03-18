@@ -28,7 +28,7 @@ This is for my own bass learning note. The original learning resource link is [h
 
 | No | Title | Duration |
 | --- | --- | --- |
-| 1 | [What is the Mixoloydian Mode and why you should play it]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %}) | 7:32 |
+| 1(lake shape) | [What is the Mixoloydian Mode and why you should play it]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %}) | 7:32 |
 | 2 | [The II-V-I Progression Explained]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-2.md %}) | 7:36 |
 | 3 | [Understanding Key Signatures Using the II-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-3.md %}) | 10:31 |
 | 4 | [Constructing Basslines Under a II-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-4.md %}) | 9:33 |
@@ -38,6 +38,14 @@ This is for my own bass learning note. The original learning resource link is [h
 | 8 | [Using Pentatonic Scales]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-8.md %}) | 9:12 |
 | 9 | [The Secrets to Improvising(The II-V-I)]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-9.md %}) | 13:02 |
 | 10 | [Phrygian, Lydian & Locrian Modes]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-10.md %}) | 13:23 |
+
+<hr>
+
+#  Mode and chord tones
+
+| Mode | Chord Tones | Express as | Groove |
+|---|---|---|---|
+|Mixolydian Mode (5)| Dominant 7th| *X*7 like G7 | G7 Groove @ end of lesson (10:27) |
 
 
 
