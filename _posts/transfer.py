@@ -109,13 +109,6 @@ if __name__ == '__main__':
     a = transfer_2_hide(fl_name, save_flname_same = (save_fl_same).lower() == 'true')
     a.final_run()
 
-    # a = '１９９４年の秋にできました。'.strip()
-    # # .isdigit(): 
-    # if re.match('^[0-9+]', a):
-    #     print ("t")
-    # else: 
-    #     print ('false')
-    # # print (a.isdigit())
     
 
     
