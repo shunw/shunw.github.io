@@ -105,7 +105,7 @@ class transfer_2_hide(object):
 
 if __name__ == '__main__':
     fl_name = input('Input the file name to transfer: ')
-    save_fl_same = input('Save it as the same name, or save it as test.md? (True or False) ')
+    save_fl_same = input('Save it as the same name (True), or save it as test.md (False)? (True or False) ')
     a = transfer_2_hide(fl_name, save_flname_same = (save_fl_same).lower() == 'true')
     a.final_run()
 
