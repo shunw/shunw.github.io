@@ -13,8 +13,8 @@ This is for my own bass learning note. The original learning resource link is [h
 | 2d | [Playing in Key]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-2.md %}) | 7:36 |
 | 3d | [How Scales are linked to Chords]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-3.md %}) | 10:31 |
 | 4d | [What are Arpeggios and why you should play them]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-4.md %}) | 9:33 |
-| 5t | [Extending the Major Triad]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-5.md %}) | 9:43 |
-| 6t | [Exercises to use in your daily practice rountine]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-6.md %}) | 12:03 |
+| 5d | [Extending the Major Triad]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-5.md %}) | 9:43 |
+| 6d | [Exercises to use in your daily practice rountine]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-6.md %}) | 12:03 |
 | 7d | [What are Modes and why you should play them]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-7.md %}) | 8:59 |
 | 8d | [What is the Dorian Mode?]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-8.md %}) | 9:12 |
 | 9d | [The Dorian Mode Continued]({{ site.baseurl }}{% link _posts/2019-01-05-bass2-9.md %}) | 13:02 |
@@ -28,7 +28,7 @@ This is for my own bass learning note. The original learning resource link is [h
 
 | No | Title | Duration |
 | --- | --- | --- |
-| 1(lake shape) | [What is the Mixoloydian Mode and why you should play it]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %}) | 7:32 |
+| 1(lack shape) | [What is the Mixoloydian Mode and why you should play it]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %}) | 7:32 |
 | 2 | [The II-V-I Progression Explained]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-2.md %}) | 7:36 |
 | 3 | [Understanding Key Signatures Using the II-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-3.md %}) | 10:31 |
 | 4 | [Constructing Basslines Under a II-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-4.md %}) | 9:33 |
@@ -43,9 +43,10 @@ This is for my own bass learning note. The original learning resource link is [h
 
 #  Mode and chord tones
 
-| Mode | Chord Tones | Express as | Groove |
-|---|---|---|---|
-|Mixolydian Mode (5)| Dominant 7th| *X*7 like G7 | G7 Groove @ end of lesson (10:27) |
+| Mode | Chord Tones | Express as | Groove @ | Lesson |
+|---|---|---|---|---|
+|---| D major 7th | as left | 8:32 |mid - lesson 5|
+|Mixolydian Mode (5)| Dominant 7th| *X*7 like G7 | G7 Groove @ end of lesson (10:27) |advance - lesson 1|
 
 
 
