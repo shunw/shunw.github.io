@@ -45,7 +45,10 @@ This is for my own bass learning note. The original learning resource link is [h
 
 | Mode | Chord Tones | Express as | Groove @ | Lesson |
 |---|---|---|---|---|
+|---| C major | as left | 9:47 |mid - lesson 3|
+|---| C major | as left | 8:44 |mid - lesson 4|
 |---| D major 7th | as left | 8:32 |mid - lesson 5|
+|Dorian Mode (2)| --- | --- | 10:37 / 11:32 / 12:32 |mid - lesson 10|
 |Mixolydian Mode (5)| Dominant 7th| *X*7 like G7 | G7 Groove @ end of lesson (10:27) |advance - lesson 1|
 
 
