@@ -31,7 +31,7 @@ This is for my own bass learning note. The original learning resource link is [h
 | 1(lack shape) | [What is the Mixoloydian Mode and why you should play it]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %}) | 7:32 |
 | 2 | [The ii-V-I Progression Explained]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-2.md %}) | 7:36 |
 | 3 | [Understanding Key Signatures Using the ii-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-3.md %}) | 10:31 |
-| 4 | [Constructing Basslines Under a II-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-4.md %}) | 9:33 |
+| 4 | [Constructing Basslines Under a ii-V-I]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-4.md %}) | 9:33 |
 | 5 | [Some more II-V-I ideas]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-5.md %}) | 9:43 |
 | 6 | [Using the Aeolian Mode]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-6.md %}) | 12:03 |
 | 7 | [Relative Major and Minor Scales]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-7.md %}) | 8:59 |
@@ -51,6 +51,7 @@ This is for my own bass learning note. The original learning resource link is [h
 |Dorian Mode (2)| --- | --- | 10:37 / 11:32 / 12:32 |mid - lesson 10|---|
 |Mixolydian Mode (5)| Dominant 7th| *X*7 like G7 | G7 Groove @ end of lesson (10:27) |advance - lesson 1|---|
 |---|ii V I| as left | 10:32 w/ C Major |advance - lesson 2|perfect cadence usually used in the end of Songs/ Sections|
+|---|ii V I| as left | 11:28; 12:00 w/ G Major; 12:30 w/ F Major |advance - lesson 4|practice and try create own bass line|
 
 
 
