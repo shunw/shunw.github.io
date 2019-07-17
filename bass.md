@@ -5,7 +5,7 @@ title: 贝斯笔记
 
 # Bass Guitar - Study Plan/ Progress
 
-[Study Plan]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %})
+[Study Plan]({{ site.baseurl }}{% link _posts/2019-01-05-bass-overall.md %})
 
 <hr>
 
