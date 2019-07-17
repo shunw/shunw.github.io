@@ -3,6 +3,12 @@ layout: default
 title: 贝斯笔记
 ---
 
+# Bass Guitar - Study Plan/ Progress
+
+[Study Plan]({{ site.baseurl }}{% link _posts/2019-01-05-bass3-1.md %})
+
+<hr>
+
 # Bass Guitar - Intermediate Lessons
 
 This is for my own bass learning note. The original learning resource link is [here](https://www.youtube.com/playlist?list=PLImrzCNnL5PnVQNFhaxgOa1iJV4zMolw-). 
