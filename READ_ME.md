@@ -1,5 +1,15 @@
 # Things to remember
 
+### ways to handle the music with python
+
+[music lib](https://wiki.python.org/moin/PythonInMusic)
+
+[q to just get the bass line](https://stackoverflow.com/questions/698191/distinguishing-instruments-in-a-music-file)
+
+[github lib - pybass](https://github.com/Wyliodrin/pybass)
+
+[github lib - aubio](https://github.com/aubio/aubio)
+
 ### To create different git account in the same PC
 
 https://stackoverflow.com/questions/32910928/ssh-keygen-no-such-file-or-directory
