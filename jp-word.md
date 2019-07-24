@@ -1,6 +1,7 @@
 ---
 layout: post_h
 title: 日文单词背诵[till 70]
+category: voc
 ---
 
 - 白天，中午
