@@ -27,6 +27,15 @@ Save the file in the editor. If it's Emacs: CTRL+X CTRL+S to save then CTRL+X CT
 
 https://gist.github.com/rxaviers/7360908
 
+### icon image resource/ fontawesome
+
+5.0 version: 
+
+https://fontawesome.com/icons?d=gallery
+
+4.7 version: 
+
+https://fontawesome.bootstrapcheatsheets.com/
 
 ### command to try web ..
 
