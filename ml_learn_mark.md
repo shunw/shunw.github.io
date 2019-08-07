@@ -16,7 +16,7 @@ title: ML_study
 
 #### 关于 pytorch 学习
 
-- ？？？
+- 类型错误问题
 
 ### 进行中
 
