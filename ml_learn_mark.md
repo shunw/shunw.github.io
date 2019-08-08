@@ -16,7 +16,7 @@ title: ML_study
 
 #### 关于 pytorch 学习
 
-- 类型错误问题
+- [Type_Error]({{ site.baseurl }}{% link _posts/2019-06-31-py-pytorch_type_error.md %})
 
 ### 进行中
 
