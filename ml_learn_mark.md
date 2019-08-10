@@ -18,6 +18,8 @@ title: ML_study
 
 - [Type_Error]({{ site.baseurl }}{% link _posts/2019-06-31-py-pytorch_type_error.md %})
 
+- [in forward/ raise NotImplementedError]({{ site.baseurl }}{% link _posts/2019-06-31-py-pytorch_forward.md %})
+
 ### 进行中
 
 #### 可以做到
