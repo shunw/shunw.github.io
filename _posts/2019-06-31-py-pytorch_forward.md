@@ -19,12 +19,14 @@ last_modified_at: 2019-06-31T00:00:00+00:00
     - 将forward的两个下划线去掉即可，疑似版本问题
 
     - 报错时是
+    
     ```py
     def __forward__(self, xb):
         return xb.float() @ self.weights + self.bias
     ```
 
     - 不报错时是
+
     ```py
     def forward(self, xb):
         return xb.float() @ self.weights + self.bias
