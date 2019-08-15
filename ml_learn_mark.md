@@ -20,6 +20,8 @@ title: ML_study
 
 - [in forward/ raise NotImplementedError]({{ site.baseurl }}{% link _posts/2019-06-31-py-pytorch_forward.md %})
 
+- [set Resnet18 output feature#]({{ site.baseurl }}{% link _posts/2019-06-31-py-pytorch_set_output_feature.md %})
+
 ### 进行中
 
 #### 可以做到
