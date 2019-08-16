@@ -30,7 +30,15 @@ title: ML_study
 
 #### 目前困扰
 
-- 无法正确判断明亮的物体的个数，会把0个误判成1个，也会把2个误判成0 - 1 个
+- 无法正确判断明亮的物体的个数，会把0个误判成1个，也会把2个误判成0 - 1 个，准备用pytorch解决
+
+- 但是pytorch的准确率不高，如下是书上(Packt Deep Learning with PyTorch)的建议:
+
+    - try playing with different dropout values
+
+    - add more data
+    
+    - do data augmentation like: randomly flipping the horizontally/ rotate the image by a small angle
 
 #### 试着探索
 
