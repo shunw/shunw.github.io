@@ -35,8 +35,12 @@ title: ML_study
 - 但是pytorch的准确率不高，如下是书上(Packt Deep Learning with PyTorch)的建议:
 
     - with transfer learning
+
+        - 可能对我自己的图像识别帮助不大
     
     - try playing with different dropout values
+
+    - change dropout value
 
     - add more data
 
@@ -56,7 +60,7 @@ title: ML_study
 
 - 看下youtube的视频，是否有按照视频练习的可能。
 
-
+- 是否可以将model 极其参数存下来/ 将cnn的training 参数存下来 后续用
 
 
 
