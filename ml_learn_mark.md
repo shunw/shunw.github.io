@@ -34,17 +34,27 @@ title: ML_study
 
 - 但是pytorch的准确率不高，如下是书上(Packt Deep Learning with PyTorch)的建议:
 
+    - with transfer learning
+    
     - try playing with different dropout values
 
     - add more data
+
+        - 略有提高，
     
-    - do data augmentation like: randomly flipping the horizontally/ rotate the image by a small angle
+    - do data augmentation like: randomly flipping the horizontally/ rotate the image by a small angle 
+
+        - 没有提高，反而有下降，继续观察之
 
 #### 试着探索
 
 - 是否有可能用pytorch解决这个问题？
 
 - 别人的blog里可以明确判断object（如人）是如何做到的?
+
+- 探索下如何降低loss 提高acc in Mnist / Cats and Dogs； 且对比下书上的案例
+
+- 看下youtube的视频，是否有按照视频练习的可能。
 
 
 
