@@ -50,6 +50,10 @@ title: ML_study
 
         - 没有提高，反而有下降，继续观察之
 
+    - try dropout 
+
+    - try different activation function, like tanh (need to check the if the intial weights are optimal for it or not) for the hidden layer and the softmax for the final layer
+
 #### 试着探索
 
 - 是否有可能用pytorch解决这个问题？
@@ -61,6 +65,8 @@ title: ML_study
 - 看下youtube的视频，是否有按照视频练习的可能。
 
 - 是否可以将model 极其参数存下来/ 将cnn的training 参数存下来 后续用
+
+- 计算tanh/ softmax的derivative
 
 
 
