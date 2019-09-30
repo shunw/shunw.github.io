@@ -54,6 +54,8 @@ title: ML_study
 
     - try different activation function, like tanh (need to check the if the intial weights are optimal for it or not) for the hidden layer and the softmax for the final layer
 
+- manning_grokking: Page 195 add sigmoid derivative training accuracy rises while test accuracy down a little. 
+
 #### 试着探索
 
 - 是否有可能用pytorch解决这个问题？
