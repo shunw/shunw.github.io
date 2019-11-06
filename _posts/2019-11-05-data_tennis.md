@@ -47,3 +47,5 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 - bpsaved: break point saved 自己保住了自己发球局的破发点
 
 - bpfaced: 自己拿到了多少对方破发点
+
+- round: 当时比赛的场次，比如 16强，8强，1/4赛，半决赛，决赛等
