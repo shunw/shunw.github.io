@@ -72,4 +72,27 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 |--- | --- | ---| ---| --- | --- |--- |--- |
 |roger xxx | xxx master| 1 | 4 | 4 |0 | 2019-01-01| hard |
 
+### 相关table
+
+- player_info: 运动员的信息，参加的所有的tourney的一些情况，以 名字 和 tourney id 为 key
+
+|player name | tourney_id| tourney_name |surface | draw_size | tourney_date |
+|--- | --- | ---| ---| --- | --- |
+
+
+- win_info: 运动员获胜的场次
+
+|winner name | tourney_id| winner_count |
+|--- | --- | ---| 
+
+- lose_info: 运动员输的场次
+
+|loser name | tourney_id| winner_count |
+|--- | --- | ---| 
+
+
+- final_winner_info: 决胜局胜利的运动员和场次
+
+|final_winner_name | tourney_id| 
+|--- | --- | 
 
