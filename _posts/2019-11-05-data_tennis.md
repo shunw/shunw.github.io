@@ -76,7 +76,7 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - player_info: 运动员的信息，参加的所有的tourney的一些情况，以 名字 和 tourney id 为 key
 
-|player name | tourney_id| tourney_name |surface | draw_size | tourney_date |
+|player_name | tourney_id| tourney_name |surface | draw_size | tourney_date |
 |--- | --- | ---| ---| --- | --- |
 |roger xxx | xxx | xx master| hard| 32 | 2019-01-01 |
 
