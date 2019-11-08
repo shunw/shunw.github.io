@@ -68,8 +68,8 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
     - 选一个人，然后看他一段时间内的夺冠的概率
 
-|winner_name/ winner_id | tourney_name |final_winner? (1/0) | tourney win rate | tourney date| surface |
-|--- | --- | ---| ---| --- | --- |
-|roger xxx | xxx master| 1 | 100% | 2019-01-01| hard |
+|winner_name/ winner_id | tourney_name |final_winner? (1/0) | tourney total round # to person | win round # |lose round # | tourney date| surface |
+|--- | --- | ---| ---| --- | --- |--- |--- |
+|roger xxx | xxx master| 1 | 4 | 4 |0 | 2019-01-01| hard |
 
 
