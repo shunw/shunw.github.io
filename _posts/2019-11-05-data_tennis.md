@@ -83,18 +83,18 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - win_info: 运动员获胜的场次
 
-|winner name | tourney_id| winner_count |
+|winner_name | winner_count | tourney_id| 
 |--- | --- | ---| 
-|roger xxx | xxx | 4| 
+|roger xxx | 4 | xxx| 
 
 - lose_info: 运动员输的场次
 
-|loser name | tourney_id| winner_count |
+|loser_name | loser_count |tourney_id| 
 |--- | --- | ---| 
-|roger xxx | xxx | 1| 
+|roger xxx | 1 | xxx| 
 
 
-- final_winner_info: 决胜局胜利的运动员和场次
+- final_win_info: 决胜局胜利的运动员和场次
 
 |final_winner_name | tourney_id| 
 |--- | --- | 
