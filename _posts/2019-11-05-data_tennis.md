@@ -52,7 +52,7 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 <hr>
 
-### 问题：
+### 问题1：
 
 预测参赛的人中，所有人中谁夺冠的概率。
 
@@ -68,11 +68,14 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
     - 选一个人，然后看他一段时间内的夺冠的概率
 
-|winner_name/ winner_id | tourney_name |final_winner? (1/0) | tourney total round # to person | win round # |lose round # | tourney date| surface |
-|--- | --- | ---| ---| --- | --- |--- |--- |
-|roger xxx | xxx master| 1 | 4 | 4 |0 | 2019-01-01| hard |
-
 ### 相关table
+
+- player_wl_tourney (main_result)
+
+|player_name | tourney_id|tourney_name |surface |draw_size|tourney date| final_winner | loser_count | winner_count |win_percent| 
+|--- | --- | ---| ---| --- | --- |--- |--- |--- | --- | 
+|roger xxx | idxxx|xxx master| hard |32|2019-01-01| 1 | 4 | 4 |0 | 
+
 
 - player_info: 运动员的信息，参加的所有的tourney的一些情况，以 名字 和 tourney id 为 key
 
@@ -99,4 +102,16 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 |final_winner_name | tourney_id| 
 |--- | --- | 
 |roger xx | xxx | 
+
+### 问题2：
+
+赢得赛事的概率，是否和左右手持拍有关 
+    
+- 是否可以应用到假设检验
+
+    - 如何分配数据
+
+
+### 假设：
+
 
