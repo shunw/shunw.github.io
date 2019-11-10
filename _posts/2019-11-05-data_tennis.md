@@ -8,50 +8,6 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 ---
 
 
-刚刚理解了一把列的内容，所以先把自己学习到的一些术语放在这里，以备不时之需。（好复杂）
-
-- level: 
-
-    - C: ATP 挑战赛
-    - A: ATP 系列赛
-    - M: Master 大师杯赛
-    - G: Grand Slam 大满贯
-    - F: Final (世界排名前8的比赛)
-
-- winner_entry: 
-
-    - WC: wild card
-    - Q: 资格赛
-    - LL: lucly loser
-    - PR: protected ranking
-    - SE: special exempt
-
-- winner rank: 当时世界排名，每周更新
-
-- winner_rank_point: 当时世界排名积分，每周更新
-
-- winner/ loser_entry: 当时比赛理的种子排名
-
-- df: double fault 双误
-
-- svpt: save point 比赛里总得分（赢一个球为一分）
-
-- 1st in: 一发进球
-
-- 1st won: 一发赢球
-
-- 2nd won: 二发赢球
-
-- svgm: 保发局数（他发球，且他赢了）
-
-- bpsaved: break point saved 自己保住了自己发球局的破发点
-
-- bpfaced: 自己拿到了多少对方破发点
-
-- round: 当时比赛的场次，比如 16强，8强，1/4赛，半决赛，决赛等
-
-<hr>
-
 ### 问题1：
 
 预测参赛的人中，所有人中谁夺冠的概率。
@@ -60,17 +16,28 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 选手在最近一段时间，tourney里连续赢球的百分比，会影响下一个tourney里F round里赢球的概率。
 
-### 步骤：
+### 数据处理步骤（理想中，可能之后会有更新）：
 
-- 随便选取一段赛事，然后将所有的人员抓取出来
+- 将需要的数据用dataframe的形式表达出来；
 
-- 按照每个人看此人最近一段时间（设置这段时间为可变化的参数）赢得比赛的概率？/看最近一段时间和比赛是否有关联。
+    - y: final_winner --- the probability to be tourney final winner. 
 
-    - 选一个人，然后看他一段时间内的夺冠的概率
+    - x: player_name, tourney_level, surface, player_age, player_ht, player_hand, player_rank_point(this need to deal with NULL data), **recent_period_win_percent** (maybe 1 year's avg of the win_percent * tourney_level)
+
+
+- 将category的数据用one-hot-encoding的方式处理;
+
+- 将数据分成training dataset 和 test dataset; 并验证是否各个y label平均分配; 
+
+- 将数据 X_train 进行归一化处理,且应用到 X_test 上
+
+- 之后用sklearn里的现成的包
+
+- 接着计算accuracy
 
 ### 相关table
 
-- player_wl_tourney (main_result)
+- player_wl_tourney (main_dataset_deal_with)
 
 |player_name | tourney_id|tourney_name |surface |draw_size|tourney_level|tourney date| final_winner | loser_count | winner_count |win_percent| 
 |--- | --- | ---| ---| --- | --- |--- |--- |--- | --- |--- |  
@@ -130,3 +97,49 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 - use classification algorithm with scikit-learn
 
 - back to use PCA or other tool to check if any improvement can be gained. 
+
+<hr>
+
+### col 内容理解
+
+刚刚理解了一把列的内容，所以先把自己学习到的一些术语放在这里，以备不时之需。（好复杂）
+
+- level: 
+
+    - C (1): ATP 挑战赛
+    - A (2): ATP 系列赛
+    - M (3): Master 大师杯赛
+    - G (4): Grand Slam 大满贯
+    - F (5): Final (世界排名前8的比赛)
+
+- winner_entry: 
+
+    - WC: wild card
+    - Q: 资格赛
+    - LL: lucly loser
+    - PR: protected ranking
+    - SE: special exempt
+
+- winner rank: 当时世界排名，每周更新
+
+- winner_rank_point: 当时世界排名积分，每周更新
+
+- winner/ loser_entry: 当时比赛理的种子排名
+
+- df: double fault 双误
+
+- svpt: save point 比赛里总得分（赢一个球为一分）
+
+- 1st in: 一发进球
+
+- 1st won: 一发赢球
+
+- 2nd won: 二发赢球
+
+- svgm: 保发局数（他发球，且他赢了）
+
+- bpsaved: break point saved 自己保住了自己发球局的破发点
+
+- bpfaced: 自己拿到了多少对方破发点
+
+- round: 当时比赛的场次，比如 16强，8强，1/4赛，半决赛，决赛等
