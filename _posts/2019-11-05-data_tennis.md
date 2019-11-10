@@ -72,16 +72,16 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - player_wl_tourney (main_result)
 
-|player_name | tourney_id|tourney_name |surface |draw_size|tourney date| final_winner | loser_count | winner_count |win_percent| 
-|--- | --- | ---| ---| --- | --- |--- |--- |--- | --- | 
-|roger xxx | idxxx|xxx master| hard |32|2019-01-01| 1 | 4 | 4 |0 | 
+|player_name | tourney_id|tourney_name |surface |draw_size|tourney_level|tourney date| final_winner | loser_count | winner_count |win_percent| 
+|--- | --- | ---| ---| --- | --- |--- |--- |--- | --- |--- |  
+|roger xxx | idxxx|xxx master| hard |32|A|2019-01-01| 1 | 4 | 4 |0 | 
 
 
 - player_info: 运动员的信息，参加的所有的tourney的一些情况，以 名字 和 tourney id 为 key
 
-|player_name | tourney_id| tourney_name |surface | draw_size | tourney_date |
-|--- | --- | ---| ---| --- | --- |
-|roger xxx | xxx | xx master| hard| 32 | 2019-01-01 |
+|player_name | tourney_id| tourney_name |surface | draw_size | tourney_level|tourney_date |
+|--- | --- | ---| ---| --- | --- |--- |
+|roger xxx | xxx | xx master| hard| 32 | A|2019-01-01 |
 
 
 - win_info: 运动员获胜的场次
