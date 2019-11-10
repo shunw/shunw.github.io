@@ -115,3 +115,18 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 ### 假设：
 
 
+<hr>
+
+### obstacle
+
+- category input to numerical data
+
+    - nominal input: try the one-hot-encoding first
+
+### trial steps
+
+- change the category input into numerical data
+
+- use classification algorithm with scikit-learn
+
+- back to use PCA or other tool to check if any improvement can be gained. 
