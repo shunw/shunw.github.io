@@ -39,16 +39,16 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - player_wl_tourney (main_dataset_deal_with)
 
-|player_name | tourney_id|tourney_name |surface |draw_size|tourney_level|tourney date| final_winner | loser_count | winner_count |win_percent| 
-|--- | --- | ---| ---| --- | --- |--- |--- |--- | --- |--- |  
-|roger xxx | idxxx|xxx master| hard |32|A|2019-01-01| 1 | 4 | 4 |0 | 
+|player_name | tourney_id|tourney_name |surface |draw_size|tourney_level|tourney date| final_winner | loser_count | winner_count |win_percent| player_hand|player_age|player_ht|player_rank_points|
+|--- | --- | ---| ---| --- | --- |--- |--- |--- | --- |--- |  --- |--- | --- |--- |  
+|roger xxx | idxxx|xxx master| hard |32|A|2019-01-01| 1 | 4 | 4 |0 | R|20|189|2190|
 
 
 - player_info: 运动员的信息，参加的所有的tourney的一些情况，以 名字 和 tourney id 为 key
 
-|player_name | tourney_id| tourney_name |surface | draw_size | tourney_level|tourney_date |
-|--- | --- | ---| ---| --- | --- |--- |
-|roger xxx | xxx | xx master| hard| 32 | A|2019-01-01 |
+|player_name | tourney_id| tourney_name |surface | draw_size | tourney_level|tourney_date |player_hand|player_age|player_ht|player_rank_points|
+|--- | --- | ---| ---| --- | --- |--- |---| --- | --- |--- |
+|roger xxx | xxx | xx master| hard| 32 | A|2019-01-01 |R|20|189|2190|
 
 - tourney_r_info: 每次tourney的round，及其排位
 
@@ -56,9 +56,16 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 |--- | --- | ---| 
 |RR | 4 | which is tourney_id| 
 
-- win_info: 运动员获胜的场次
+- tourney_r_total: 每次tourney的round总数
 
-|winner_name | winner_count | tourney_id| 
+|tourney_id | round_total|
+|--- | --- | 
+|xxx | 5 |
+
+
+- win_info: 运动员获胜的最后的场次
+
+|winner_name | winner_max_round | tourney_id| 
 |--- | --- | ---| 
 |roger xxx | 4 | xxx| 
 
