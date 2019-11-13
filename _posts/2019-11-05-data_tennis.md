@@ -50,6 +50,11 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 |--- | --- | ---| ---| --- | --- |--- |
 |roger xxx | xxx | xx master| hard| 32 | A|2019-01-01 |
 
+- tourney_r_info: 每次tourney的round，及其排位
+
+|round | round_count | t_id| 
+|--- | --- | ---| 
+|RR | 4 | which is tourney_id| 
 
 - win_info: 运动员获胜的场次
 
