@@ -46,9 +46,9 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - player_info: 运动员的信息，参加的所有的tourney的一些情况，以 名字 和 tourney id 为 key
 
-|player_name | tourney_id| tourney_name |surface | draw_size | tourney_level|tourney_date |player_hand|player_age|player_ht|player_rank_points|
-|--- | --- | ---| ---| --- | --- |--- |---| --- | --- |--- |
-|roger xxx | xxx | xx master| hard| 32 | A|2019-01-01 |R|20|189|2190|
+|player_name | tourney_id| tourney_name |surface | draw_size | tourney_level|level_weight|tourney_date |player_hand|player_age|player_ht|player_rank_points|
+|--- | --- | ---| ---| --- | --- |--- |---| --- | --- |--- |--- |
+|roger xxx | xxx | xx master| hard| 32 | A|1|2019-01-01 |R|20|189|2190|
 
 - tourney_r_info: 每次tourney的round，及其排位
 
