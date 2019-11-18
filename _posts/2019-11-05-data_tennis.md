@@ -39,7 +39,7 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - player_wl_tourney (main_dataset_deal_with)
 
-|player_name | tourney_id|tourney_name |surface |draw_size|tourney_level|tourney date| final_winner | round_total | winner_max_round |win_percent| player_hand|player_age|player_ht|player_rank_points|(with pd)wt_win_percent|
+|player_name | tourney_id|tourney_name |surface |draw_size|tourney_level|tourney date| final_winner | round_total | winner_max_round |win_percent| player_hand|player_age|player_ht|player_rank_points|wt_win_percent|
 |--- | --- | ---| ---| --- | --- |--- |--- |--- | --- |--- |  --- |--- | --- |--- | --- |  
 |roger xxx | idxxx|xxx master| hard |32|A|2019-01-01| 1 | 4 | 4 |100| R|20|189|2190|win% * level weight|
 
