@@ -24,8 +24,18 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
     - x: player_name, tourney_level, surface, player_age, player_ht, player_hand, player_rank_point(this need to deal with NULL data), **recent_period_win_percent** (maybe 1 year's avg of the win_percent * tourney_level)
 
+        - 用pandas df.rolling来处理，时间长度可以自己设置。
+
 
 - 将category的数据用one-hot-encoding的方式处理;
+
+    - 用pandas get_dummies来处理
+
+- 降维;
+
+    - 【失败】用PCA 处理，后来发现col是330（因为one hot encoding的关系），前四个因子累加起来的百分比刚超过5%。
+
+- 在分成training data/ test data之前，对各列对重要性进行分析
 
 - 将数据分成training dataset 和 test dataset; 并验证是否各个y label平均分配; 
 
