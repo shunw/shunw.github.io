@@ -35,7 +35,13 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
     - 【失败】用PCA 处理，后来发现col是330（因为one hot encoding的关系），前四个因子累加起来的百分比刚超过5%。
 
-- 在分成training data/ test data之前，对各列对重要性进行分析
+- 线性数据处理
+
+    - EDA/ use pairplot to check the data relationship.
+
+        - 没有出来有明显的相关x因素和y结果之间
+
+        - player_age/ player_ht has 0 data.
 
 - 将数据分成training dataset 和 test dataset; 并验证是否各个y label平均分配; 
 
