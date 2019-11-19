@@ -4,6 +4,6 @@ title: wendy's blog
 
 # w's learning blog
 
-[how to wash winter jacket 1](https://zhuanlan.zhihu.com/p/32366613)
+## Machine Learning Basic Marks
 
-[how to wash winter jacket 2](https://www.bilibili.com/video/av33591938/)
+- [Plot with pandas/ matplotlib](https://pbpython.com/effective-matplotlib.html)
