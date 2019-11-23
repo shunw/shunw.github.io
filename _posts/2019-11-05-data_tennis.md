@@ -154,7 +154,7 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - winner_rank_point: 当时世界排名积分，每周更新
 
-- winner/ loser_entry: 当时比赛理的种子排名
+- winner/ loser_entry: 当时比赛里的种子排名
 
 - df: double fault 双误
 
@@ -166,7 +166,7 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - 2nd won: 二发赢球
 
-- svgm: 保发局数（他发球，且他赢了）
+- svgm: 保发局数（他发球，且他赢了的那一局）
 
 - bpsaved: break point saved 自己保住了自己发球局的破发点
 
