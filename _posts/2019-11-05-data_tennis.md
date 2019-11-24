@@ -158,7 +158,7 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 - df: double fault 双误
 
-- svpt: save point 比赛里总得分（赢一个球为一分）
+- svpt: service points for winner/ loser 发球得分
 
 - 1st in: 一发进球
 
