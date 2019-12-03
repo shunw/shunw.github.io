@@ -14,9 +14,20 @@ last_modified_at: 2019-11-05T00:00:00+00:00
 
 ### 假设：
 
-【失败】选手在最近一段时间，tourney里连续赢球的百分比，会影响下一个tourney里F round里赢球的概率。--- 么以看出相关
+【失败】选手在最近一段时间，tourney里连续赢球的百分比，会影响下一个tourney里F round里赢球的概率。--- 么看出相关
 
 【选取假设】设计数据，查看哪些是相关
+
+【其他】从验证别人的论文开始。。。
+
+ - 看下TrueSkill如何处理，然后将TrueSkill 引入计算中
+
+    - 网球ranking 参考 [ATP](https://en.wikipedia.org/wiki/ATP_Rankings)
+
+    - True Skill 参考 [TrueSkill Rank](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/)
+
+
+
 
 ### 数据处理步骤（理想中，可能之后会有更新）：
 
