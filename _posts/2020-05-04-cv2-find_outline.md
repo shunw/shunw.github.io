@@ -76,7 +76,7 @@ last_modified_at: 2020-05-04T00:00:00+00:00
 
 终于作出这个图了，激动的过来纪念以下。
 
-![矩形_outline_top_down_view](/assets/img/cv2/rec_outline_top_down.JPG)
+![矩形_outline_top_down_view](/assets/img/cv2/rec_outline_top_down.png)
 
 ## 预期的坑：
 
