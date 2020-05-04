@@ -37,16 +37,16 @@ last_modified_at: 2020-05-04T00:00:00+00:00
 
 ## 坑：铅笔的颜色太浅，不能找出矩形边界
 
-![正方形0_w_pencil](../assets/img/cv2/square_line.JPG)
+![正方形0_w_pencil](/assets/img/cv2/square_line.JPG)
 
 
 ## 坑：四角上的正方形涂色，但是没有办法找到最外面的四个角，找到的矩形的四个点，是以正方形靠内的四个点组成的，四个calibration的正方形没有被包含进去
 
-![正方形_w_pen_filled_square](../assets/img/cv2/square_line_2.JPG)
+![正方形_w_pen_filled_square](/assets/img/cv2/square_line_2.JPG)
 
 ## 坑3：
 
-![正方形_w_pen_not_filled_square](../assets/img/cv2/square_line_not_fill.JPG)
+![正方形_w_pen_not_filled_square](/assets/img/cv2/square_line_not_fill.JPG)
 
 - 无法找出矩形的完整边框。。汗。。
     
