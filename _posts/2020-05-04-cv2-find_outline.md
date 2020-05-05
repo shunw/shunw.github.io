@@ -148,7 +148,7 @@ last_modified_at: 2020-05-04T00:00:00+00:00
 
 - 四个定位色块会和四边的line接壤，造成无法判定四个定位色块为正方形/四边形（因为有毛刺）
 
-[毛刺图](/assets/img/cv2/square_attached_lines.png)
+![毛刺图](/assets/img/cv2/square_attached_lines.png)
 
 
 
