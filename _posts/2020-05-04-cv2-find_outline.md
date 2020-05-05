@@ -59,9 +59,17 @@ last_modified_at: 2020-05-04T00:00:00+00:00
 
 - mark: 
     
-    - 按照cv2.contourArea进行排序，index 2 为外圈矩形
+    - 整张纸的情况下
 
-    - 三个正方形定位角的index 依次为 4, 5, 7
+        - 按照cv2.contourArea进行排序，index 2 为外圈矩形
+
+        - 三个正方形定位角的index 依次为 4, 5, 7
+
+    - 四个定位方块的情况下
+
+        - 因为都涂黑了，所以找不出来边界。。。
+
+        - ？要么直接用moment 找中心位置 -> 这个和 镂空的那四个定位点又不同
 
 - 现有问题：
 
@@ -130,7 +138,19 @@ last_modified_at: 2020-05-04T00:00:00+00:00
 
 - 找四边形
 
-    - 还是需要 Adrian介绍的模块没有用上，可以详见[链接](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/)，代码41行 - 51行
+    - 还是需要 Adrian介绍的模块，详见[链接](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/)，代码41行 - 51行
+
+- 找出四个角上的calibration色块 （和边界很接近）
+
+    - 因为和边界很接近，用cv2.threshold(gray, 100, 255, cv2.THRESH_BINARY)[1]
+
+    - 要注意调整 100 - 255这个threshold，在色块的浓度和边线上 进行balance
+
+- 四个定位色块会和四边的line接壤，造成无法判定四个定位色块为正方形/四边形（因为有毛刺）
+
+[毛刺图](/assets/img/cv2/square_attached_lines.png)
+
+
 
 - ❓有时因为线粗细不匀，四边形会被认为是n边形，如何处理？
 
@@ -138,4 +158,4 @@ last_modified_at: 2020-05-04T00:00:00+00:00
 
 终于作出这个图了，激动的过来纪念一下。
 
-![矩形_outline_top_down_view](/assets/img/cv2/rec_outline_top_down.png)
+![矩形_outline_top_down_view](/assets/img/cv2/rec_outline_top_down_not_fill.png)
